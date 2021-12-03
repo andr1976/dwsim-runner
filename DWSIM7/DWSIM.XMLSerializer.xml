@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DWSIM.XMLSerializer
+</name>
+</assembly>
+<members>
+<member name="T:XMLSerializer.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:XMLSerializer.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:XMLSerializer.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:XMLSerializer.XMLSerializer.Deserialize(System.Object,System.Collections.Generic.List{System.Xml.Linq.XElement},System.Boolean)">
+ <summary>
+ Deserializes selected properties of an object from XML.
+ </summary>
+ <param name="obj">The object to be updated with properties from the XML elements.</param>
+ <param name="xmlprops">The list of XML elements to deserialize from.</param>
+ <returns>True if successful.</returns>
+ <remarks> Properties of type Boolean, String, Double, Single, Integer, Nullable(Of Double), 
+ Nullable(Of Single), Nullable(Of Integer), ArrayList, Font, Color, [Enum]
+ are supported.</remarks>
+</member>
+<member name="M:XMLSerializer.XMLSerializer.Serialize(System.Object,System.Boolean)">
+ <summary>
+ Serializes selected properties of an object to XML.
+ </summary>
+ <param name="obj">The object to serialize.</param>
+ <returns>True if successful.</returns>
+ <remarks> Properties of type String, Double, Single, Integer, Nullable(Of Double), 
+ Nullable(Of Single), Nullable(Of Integer), ArrayList, Font, Color, [Enum]
+ are supported.</remarks>
+</member>
+</members>
+</doc>

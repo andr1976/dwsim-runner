@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DWSIM.ExtensionMethods.Eto</name>
+    </assembly>
+    <members>
+        <member name="T:DWSIM.ExtensionMethods.Eto.Extensions2">
+            <summary>
+            Eto.Forms extension methods
+            </summary>
+        </member>
+        <member name="M:DWSIM.ExtensionMethods.Eto.Extensions2.GetStandardForm(System.String,System.Int32,System.Int32,Eto.Forms.DynamicLayout)">
+            <summary>
+            Gets a standard form window to display 
+            </summary>
+            <param name="title">Title of the form</param>
+            <param name="width">Width in pixels</param>
+            <param name="height">Height in pixels</param>
+            <param name="content">Form contents (DynamicLayout)</param>
+            <returns></returns>
+        </member>
+        <member name="M:DWSIM.ExtensionMethods.Eto.Extensions2.GetStandardForm(System.String,System.Int32,System.Int32,Eto.Forms.TableLayout,System.Boolean)">
+            <summary>
+            Gets a standard form window to display with scrollable contents
+            </summary>
+            <param name="title">Title of the form</param>
+            <param name="width">Width in pixels</param>
+            <param name="height">Height in pixels</param>
+            <param name="content">Form contents (DynamicLayout)</param>
+            <param name="scrollable">Contents are scrollable</param>
+            <returns></returns>
+        </member>
+        <member name="M:DWSIM.ExtensionMethods.Eto.Extensions2.GetTabbedForm(System.String,System.Int32,System.Int32,Eto.Forms.Control[])">
+            <summary>
+            Gets a Form window for multiple tabbed contents
+            </summary>
+            <param name="title">Title of the form</param>
+            <param name="width">Width in pixels</param>
+            <param name="height">Height in pixels</param>
+            <param name="contents">List of controls to display in the tabs. Set the Tag property of the control to display as the tab text.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DWSIM.ExtensionMethods.Eto.Extensions2.Center(Eto.Forms.Form)">
+            <summary>
+            Centers the form on the screen.
+            </summary>
+            <param name="form">Form (window)</param>
+        </member>
+        <member name="M:DWSIM.ExtensionMethods.Eto.Extensions2.GetStandardContainer">
+            <summary>
+            Gets the standard control container (DynamicLayout)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DWSIM.ExtensionMethods.Eto.Extensions2.CreateDialog(Eto.Forms.Control,System.String,System.Int32,System.Int32)">
+            <summary>
+            Creates and returns a Dialog window.
+            </summary>
+            <param name="content">Control to display in the dialog.</param>
+            <param name="title">Title of the dialog.</param>
+            <param name="width">Width in pixels</param>
+            <param name="height">Height in pixels</param>
+            <returns></returns>
+        </member>
+        <member name="M:DWSIM.ExtensionMethods.Eto.Extensions2.AddHeader(Eto.Forms.DynamicLayout,System.String)">
+            <summary>
+            Adds a header text to the container.
+            </summary>
+            <param name="container">Layout container</param>
+            <param name="text">Label text</param>
+            <returns></returns>
+        </member>
+        <member name="M:DWSIM.ExtensionMethods.Eto.Extensions2.AddDescription(Eto.Forms.DynamicLayout,System.String)">
+            <summary>
+            Adds a description row to the container.
+            </summary>
+            <param name="container">Layout container</param>
+            <param name="text">Description text</param>
+            <returns></returns>
+        </member>
+        <member name="M:DWSIM.ExtensionMethods.Eto.Extensions2.AddEditTextBox(Eto.Forms.DynamicLayout,System.String,System.Double,System.String,System.Action{Eto.Forms.TextBox,System.EventArgs})">
+            <summary>
+            Adds a textbox for editing a double (numeric) value.
+            </summary>
+            <param name="container">Layout container</param>
+            <param name="text">Text (description)</param>
+            <param name="currentvalue">Current value to display on the textbox</param>
+            <param name="numberformat">Number format (i.e. 'N2')</param>
+            <param name="textchangedhandler">Handler for the TextChanged event.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DWSIM.ExtensionMethods.Eto.Extensions2.AddDropDown(Eto.Forms.DynamicLayout,System.String,System.Collections.Generic.List{System.String},System.Int32,System.Action{Eto.Forms.DropDown,System.EventArgs})">
+            <summary>
+            Adds a DropDown with selectable items
+            </summary>
+            <param name="container">Layout container</param>
+            <param name="text">Text (description)</param>
+            <param name="options">Selectable items</param>
+            <param name="selected">Index of the currently selected item (zero-based)</param>
+            <param name="selectedindexchangedhandler">Handler for the SelectedIndexChanged event.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DWSIM.ExtensionMethods.Eto.Extensions2.AddCheckBox(Eto.Forms.DynamicLayout,System.String,System.Boolean,System.Action{Eto.Forms.CheckBox,System.EventArgs})">
+            <summary>
+            Adds a CheckBox
+            </summary>
+            <param name="container">Layout container</param>
+            <param name="text">Text (description)</param>
+            <param name="ischecked"></param>
+            <param name="checkedchangedhandler">Handler for the CheckedChanged event.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DWSIM.ExtensionMethods.Eto.Extensions2.AddNumericStepper(Eto.Forms.DynamicLayout,System.String,System.Double,System.Double,System.Double,System.Int32,System.Action{Eto.Forms.NumericStepper,System.EventArgs})">
+            <summary>
+            Adds a numeric stepper (selector)
+            </summary>
+            <param name="container">Layout container</param>
+            <param name="text">Text (description)</param>
+            <param name="value">The current value of the stepper</param>
+            <param name="minvalue">Maximum selectable value</param>
+            <param name="maxvalue">Minimum selectable value</param>
+            <param name="decimalplaces">Decimal places</param>
+            <param name="valuechangedhandler">Handler for the ValueChanged event</param>
+            <returns></returns>
+        </member>
+        <member name="M:DWSIM.ExtensionMethods.Eto.Extensions2.AddButtonWithLabel(Eto.Forms.DynamicLayout,System.String,System.String,System.Action{Eto.Forms.Button,System.EventArgs})">
+            <summary>
+            Adds a button with a label.
+            </summary>
+            <param name="container">Layout container</param>
+            <param name="text">Text (description)</param>
+            <param name="buttontext">Text to be displayed in the button</param>
+            <param name="clickhandler">Handler for the Click event.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DWSIM.ExtensionMethods.Eto.Extensions2.AddButton(Eto.Forms.DynamicLayout,System.String,System.Action{Eto.Forms.Button,System.EventArgs})">
+            <summary>
+            Adds a button
+            </summary>
+            <param name="container">Layout container</param>
+            <param name="buttontext">Text to be displayed in the button</param>
+            <param name="clickhandler">Handler for the Click event.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DWSIM.ExtensionMethods.Eto.Extensions2.AddControl(Eto.Forms.DynamicLayout,Eto.Forms.Control)">
+            <summary>
+            Adds a control to the container.
+            </summary>
+            <param name="container">Layout container</param>
+            <param name="control">Control to add</param>
+        </member>
+        <member name="M:DWSIM.ExtensionMethods.Eto.Extensions2.AddEmptySpace(Eto.Forms.DynamicLayout)">
+            <summary>
+            Adds an empty row to the container for spacing purposes.
+            </summary>
+            <param name="container">Layout container</param>
+        </member>
+        <member name="M:DWSIM.UI.Shared.Common.IsValidDouble(System.String)">
+            <summary>
+            checks if the string is a valid double-precision number.
+            </summary>
+            <param name="s"></param>
+            <returns>true/false</returns>
+        </member>
+        <member name="M:DWSIM.UI.Shared.Common.GetEditorFontSize">
+            <summary>
+            returns the size of the font for Cross-Platform UI editors.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DWSIM.UI.Shared.Common.Center(Eto.Forms.Form)">
+            <summary>
+            centers the form on the current screen.
+            </summary>
+            <param name="form"></param>
+        </member>
+        <member name="M:DWSIM.UI.Shared.Common.GetDefaultEditorForm(System.String,System.Int32,System.Int32,Eto.Forms.DynamicLayout)">
+            <summary>
+            returns a form whose contents are defined by the content argument (Dynamic Layout)
+            </summary>
+            <param name="title"></param>
+            <param name="width"></param>
+            <param name="height"></param>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DWSIM.UI.Shared.Common.GetDefaultEditorForm(System.String,System.Int32,System.Int32,Eto.Forms.PixelLayout)">
+            <summary>
+            returns a form whose contents are defined by the content argument (Pixel Layout)
+            </summary>
+            <param name="title"></param>
+            <param name="width"></param>
+            <param name="height"></param>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DWSIM.UI.Shared.Common.GetDefaultEditorForm(System.String,System.Int32,System.Int32,Eto.Forms.TableLayout,System.Boolean)">
+            <summary>
+            returns a form whose contents are defined by the TableLayout argument
+            </summary>
+            <param name="title"></param>
+            <param name="width"></param>
+            <param name="height"></param>
+            <param name="content"></param>
+            <param name="scrollable"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

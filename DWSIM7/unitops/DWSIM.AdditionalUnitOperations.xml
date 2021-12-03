@@ -1,0 +1,631 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DWSIM.AdditionalUnitOperations
+</name>
+</assembly>
+<members>
+<member name="T:DWSIM.AdditionalUnitOperations.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources._new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.arrow_down">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.arrow_in1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.arrow_left">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.arrow_right">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.arrow_rotate_clockwise">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.arrow_up">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.arrows_4_way">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.bullet_lightning">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.bullet_sparkle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.bullet_tick">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.chart_line">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.cog">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.col_abs_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.col_abs_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.col_dc_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.col_dc_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.col_rebabs_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.col_rebabs_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.col_rflabs_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.col_rflabs_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.col_sc_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.col_sc_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.connect">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.connect1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.control_play">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.cross">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.disconnect">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.disk">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.fallingfilm">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.fast_forward">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.folder_page_white">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.help_browser1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.icons8_spy_male">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.information">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.lo_adjust_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.lo_adjust_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.lo_enrecy_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.lo_enrecy_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.lo_recy_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.lo_recy_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.lo_spec_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.lo_spec_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.lock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.lock_open">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.page_white_gear">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.page_white_magnify">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.paste_plain">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.printer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.printer_add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.re_conv_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.re_conv_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.re_cstr_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.re_cstr_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.re_equi_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.re_equi_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.re_gibbs_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.re_gibbs_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.re_pfr_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.re_pfr_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.rewind">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.script_code">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.script_code1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.shape_square_add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.shape_square_delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.Straight_tube_heat_exchanger_1_pass">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.Straight_tube_heat_exchanger_2_pass">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.stream_en_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.stream_en_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.stream_mat_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.stream_mat_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.switch_energy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.switch_material">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.tag_blue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.tick">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.turn_left">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.turn_right">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_co_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_co_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_compr_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_compr_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_compsep_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_compsep_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_cooler_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_cooler_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_custom_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_custom_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_excel_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_excel_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_expan_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_expan_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_filter_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_filter_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_flash_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_flash_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_fs_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_fs_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_heater_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_heater_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_hx_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_hx_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_mixer_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_mixer_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_orifice_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_orifice_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_pipe_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_pipe_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_pump_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_pump_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_solidsep_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_solidsep_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_split_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_split_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_tank_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_tank_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_valve_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.uo_valve_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.AdditionalUnitOperations.My.Resources.Resources.ventilation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,211 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DWSIM.ExtensionMethods
+</name>
+</assembly>
+<members>
+<member name="T:DWSIM.ExtensionMethods.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DWSIM.ExtensionMethods.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DWSIM.ExtensionMethods.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:DWSIM.ExtensionMethods.General.ExpY(System.Double)">
+ <summary>
+ Alternative implementation for the Exponential (Exp) function.
+ </summary>
+ <param name="val"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.General.ToJaggedArray``1(``0[0:,0:])">
+ <summary>
+ Converts a two-dimensional array to a jagged array.
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="twoDimensionalArray"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.General.FromJaggedArray``1(``0[][])">
+ <summary>
+ Converts a jagged array to a two-dimensional array.
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="jaggedArray"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SIMDExtenders.ExpY(System.Double[])">
+ <summary>
+ Computes the exponential of each vector element.
+ </summary>
+ <param name="vector"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SIMDExtenders.LogY(System.Double[])">
+ <summary>
+ Computes the natural logarithm of each vector element.
+ </summary>
+ <param name="vector"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SIMDExtenders.AbsY(System.Double[])">
+ <summary>
+ Computes the absolute value of each vector element.
+ </summary>
+ <param name="vector"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SIMDExtenders.MinY(System.Double[])">
+ <summary>
+ Returns the smallest element in the vector.
+ </summary>
+ <param name="vector"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SIMDExtenders.MinY_NonZero(System.Double[])">
+ <summary>
+ Returns the smallest non-zero element in the vector.
+ </summary>
+ <param name="vector"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SIMDExtenders.MaxY(System.Double[])">
+ <summary>
+ Returns the biggest element in the vector.
+ </summary>
+ <param name="vector"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SIMDExtenders.SumY(System.Double[])">
+ <summary>
+ Sum of the vector elements.
+ </summary>
+ <param name="vector"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SIMDExtenders.AbsSumY(System.Double[])">
+ <summary>
+ Absolute sum of the vector elements
+ </summary>
+ <param name="vector"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SIMDExtenders.AbsSqrSumY(System.Double[])">
+ <summary>
+ Absolute square sum of vector elements.
+ </summary>
+ <param name="vector"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SIMDExtenders.NegateY(System.Double[])">
+ <summary>
+ Negates the elements of a vector.
+ </summary>
+ <param name="vector"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SIMDExtenders.MultiplyY(System.Double[],System.Double[])">
+ <summary>
+ Multiplies vector elements.
+ </summary>
+ <param name="vector1"></param>
+ <param name="vector2"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SIMDExtenders.DivideY(System.Double[],System.Double[])">
+ <summary>
+ Divides vector elements.
+ </summary>
+ <param name="vector"></param>
+ <param name="vector2"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SIMDExtenders.SubtractY(System.Double[],System.Double[])">
+ <summary>
+ Subtracts vector elements.
+ </summary>
+ <param name="vector"></param>
+ <param name="vector2"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SIMDExtenders.MultiplyConstY(System.Double[],System.Double)">
+ <summary>
+ Multiplies vector elements by a constant.
+ </summary>
+ <param name="vector"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SIMDExtenders.NormalizeY(System.Double[])">
+ <summary>
+ Normalizes a vector (sum = 1).
+ </summary>
+ <param name="vector"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SIMDExtenders.AddY(System.Double[],System.Double[])">
+ <summary>
+ Adds vector elements.
+ </summary>
+ <param name="vector"></param>
+ <param name="vector2"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SIMDExtenders.AddConstY(System.Double[],System.Double)">
+ <summary>
+ Adds a constant value to vector elements.
+ </summary>
+ <param name="vector"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SIMDExtenders.ReplaceInvalidsWithZeroes(System.Double[])">
+ <summary>
+ Replace NaNs and Infinities with zero.
+ </summary>
+ <param name="vector"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.ExtensionMethods.SimplexExtender.ComputeMin2(DotNumerics.Optimization.Simplex,DWSIM.ExtensionMethods.SimplexExtender.ObjectiveFunction,DotNumerics.Optimization.OptBoundVariable[])">
+ <summary>
+ Simplified implementation of Nelder-Mead-Simplex-Downhill algorithm. No "Reduction" and no "Expansion" implemented yet.
+ https://en.wikipedia.org/wiki/Nelder%E2%80%93Mead_method
+ </summary>
+ <param name="simplexsolver">simplex solver instance</param>
+ <param name="objfunc">objective function delegate</param>
+ <param name="Var">optimization variables</param>
+ <returns>the values of the variables that minimize the objective function value</returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

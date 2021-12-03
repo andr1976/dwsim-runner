@@ -1,0 +1,1510 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DWSIM.Interfaces
+</name>
+</assembly>
+<members>
+<member name="T:DWSIM.Interfaces.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DWSIM.Interfaces.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DWSIM.Interfaces.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:DWSIM.Interfaces.IAttachedUtility">
+ <summary>
+ This interface defines the expected funcionality of a flowsheet utility attached to an object.
+ </summary>
+</member>
+<member name="T:DWSIM.Interfaces.ICompound">
+ <summary>
+ This interface defines the basic properties of a compound in a phase.
+ </summary>
+</member>
+<member name="T:DWSIM.Interfaces.ICompoundConstantProperties">
+ <summary>
+ This interface defines the constant properties of a compound.
+ </summary>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.ExtraProperties">
+ <summary>
+ Dynamically added properties.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Name">
+ <summary>
+ Name of this compound.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.CAS_Number">
+ <summary>
+ CAS Registry Number® of this compound.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Formula">
+ <summary>
+ Chemical formula of this compound.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.SMILES">
+ <summary>
+ The simplified molecular-input line-entry system (SMILES) of this compound.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.InChI">
+ <summary>
+ The IUPAC International Chemical Identifier (InChI) of this compound.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.ChemicalStructure">
+ <summary>
+ Chemical structure of this compound.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Molar_Weight">
+ <summary>
+ Molecular weight in kg/kmol
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Critical_Temperature">
+ <summary>
+ Critical temperature in K
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Critical_Pressure">
+ <summary>
+ Critical pressure in Pa
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Critical_Volume">
+ <summary>
+ Critical volume in m3/kmol
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Critical_Compressibility">
+ <summary>
+ Critical compressibility
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Acentric_Factor">
+ <summary>
+ Acentric factor
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Z_Rackett">
+ <summary>
+ Rackett compressibility factor
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.PR_Volume_Translation_Coefficient">
+ <summary>
+ PR EOS Volume translation coefficient
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.SRK_Volume_Translation_Coefficient">
+ <summary>
+ SRK EOS Volume translation coefficient
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Chao_Seader_Acentricity">
+ <summary>
+ Chao-Seader acentric factor
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Chao_Seader_Solubility_Parameter">
+ <summary>
+ Chao Seader solubility parameter in (cal/mL)^0.5
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Chao_Seader_Liquid_Molar_Volume">
+ <summary>
+ Chao-Seader liquid molar volume in mL/mol
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.IG_Entropy_of_Formation_25C">
+ <summary>
+ Ideal Gas entropy of formation in kJ/[kg.K]
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.IG_Enthalpy_of_Formation_25C">
+ <summary>
+ Ideal Gas enthalpy of formation in kJ/kg
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.IG_Gibbs_Energy_of_Formation_25C">
+ <summary>
+ Ideal Gas gibbs energy of formation in kJ/kg
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Dipole_Moment">
+ <summary>
+ Dipole moment in coloumb.m
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Pressure_Constant_A">
+ <summary>
+ Vapor pressure equation A constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Pressure_Constant_B">
+ <summary>
+ Vapor pressure equation B constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Pressure_Constant_C">
+ <summary>
+ Vapor pressure equation C constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Pressure_Constant_D">
+ <summary>
+ Vapor pressure equation D constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Pressure_Constant_E">
+ <summary>
+ Vapor pressure equation E constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Pressure_TMIN">
+ <summary>
+ Vapor pressure equation minimum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Pressure_TMAX">
+ <summary>
+ Vapor pressure equation maximum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Ideal_Gas_Heat_Capacity_Const_A">
+ <summary>
+ Ideal gas heat capacity equation A constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Ideal_Gas_Heat_Capacity_Const_B">
+ <summary>
+ Ideal gas heat capacity equation B constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Ideal_Gas_Heat_Capacity_Const_C">
+ <summary>
+ Ideal gas heat capacity equation C constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Ideal_Gas_Heat_Capacity_Const_D">
+ <summary>
+ Ideal gas heat capacity equation D constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Ideal_Gas_Heat_Capacity_Const_E">
+ <summary>
+ Ideal gas heat capacity equation E constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Viscosity_Const_A">
+ <summary>
+ Liquid viscosity equation A constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Viscosity_Const_B">
+ <summary>
+ Liquid viscosity equation B constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Viscosity_Const_C">
+ <summary>
+ Liquid viscosity equation C constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Viscosity_Const_D">
+ <summary>
+ Liquid viscosity equation D constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Viscosity_Const_E">
+ <summary>
+ Liquid viscosity equation E constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Density_Const_A">
+ <summary>
+ Liquid density equation A constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Density_Const_B">
+ <summary>
+ Liquid density equation B constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Density_Const_C">
+ <summary>
+ Liquid density equation C constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Density_Const_D">
+ <summary>
+ Liquid density equation D constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Density_Const_E">
+ <summary>
+ Liquid density equation E constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Density_Tmin">
+ <summary>
+ Liquid density equation minimum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Density_Tmax">
+ <summary>
+ Liquid density equation maximum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Heat_Capacity_Const_A">
+ <summary>
+ Liquid heat capacity equation A constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Heat_Capacity_Const_B">
+ <summary>
+ Liquid heat capacity equation B constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Heat_Capacity_Const_C">
+ <summary>
+ Liquid heat capacity equation C constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Heat_Capacity_Const_D">
+ <summary>
+ Liquid heat capacity equation D constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Heat_Capacity_Const_E">
+ <summary>
+ Liquid heat capacity equation E constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Heat_Capacity_Tmin">
+ <summary>
+ Liquid heat capacity minimum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Heat_Capacity_Tmax">
+ <summary>
+ Liquid heat capacity maximum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Thermal_Conductivity_Const_A">
+ <summary>
+ Liquid thermal conductivity equation A constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Thermal_Conductivity_Const_B">
+ <summary>
+ Liquid thermal conductivity equation B constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Thermal_Conductivity_Const_C">
+ <summary>
+ Liquid thermal conductivity equation C constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Thermal_Conductivity_Const_D">
+ <summary>
+ Liquid thermal conductivity equation D constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Thermal_Conductivity_Const_E">
+ <summary>
+ Liquid thermal conductivity equation E constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Thermal_Conductivity_Tmin">
+ <summary>
+ Liquid thermal conductivity equation minimum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Liquid_Thermal_Conductivity_Tmax">
+ <summary>
+ Liquid thermal conductivity equation maximum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Thermal_Conductivity_Const_A">
+ <summary>
+ Vapor thermal conductivity equation A constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Thermal_Conductivity_Const_B">
+ <summary>
+ Vapor thermal conductivity equation B constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Thermal_Conductivity_Const_C">
+ <summary>
+ Vapor thermal conductivity equation C constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Thermal_Conductivity_Const_D">
+ <summary>
+ Vapor thermal conductivity equation D constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Thermal_Conductivity_Const_E">
+ <summary>
+ Vapor thermal conductivity equation E constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Thermal_Conductivity_Tmin">
+ <summary>
+ Vapor thermal conductivity equation minimum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Thermal_Conductivity_Tmax">
+ <summary>
+ Vapor thermal conductivity equation maximum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Viscosity_Const_A">
+ <summary>
+ Vapor viscosity equation A constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Viscosity_Const_B">
+ <summary>
+ Vapor viscosity equation B constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Viscosity_Const_C">
+ <summary>
+ Vapor viscosity equation C constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Viscosity_Const_D">
+ <summary>
+ Vapor viscosity equation D constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Viscosity_Const_E">
+ <summary>
+ Vapor viscosity equation E constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Viscosity_Tmin">
+ <summary>
+ Vapor viscosity equation minimum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Vapor_Viscosity_Tmax">
+ <summary>
+ Vapor viscosity equation maximum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Solid_Density_Const_A">
+ <summary>
+ Solid density equation A constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Solid_Density_Const_B">
+ <summary>
+ Solid density equation B constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Solid_Density_Const_C">
+ <summary>
+ Solid density equation C constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Solid_Density_Const_D">
+ <summary>
+ Solid density equation D constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Solid_Density_Const_E">
+ <summary>
+ Solid density equation E constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Solid_Density_Tmin">
+ <summary>
+ Solid density equation minimum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Solid_Density_Tmax">
+ <summary>
+ Solid density equation maximum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Surface_Tension_Const_A">
+ <summary>
+ Surface tension equation A constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Surface_Tension_Const_B">
+ <summary>
+ Surface tension equation B constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Surface_Tension_Const_C">
+ <summary>
+ Surface tension equation C constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Surface_Tension_Const_D">
+ <summary>
+ Surface tension equation D constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Surface_Tension_Const_E">
+ <summary>
+ Surface tension equation E constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Surface_Tension_Tmin">
+ <summary>
+ Surface tension equation minimum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Surface_Tension_Tmax">
+ <summary>
+ Surface tension equation maximum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Solid_Heat_Capacity_Const_A">
+ <summary>
+ Solid heat capacity equation A constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Solid_Heat_Capacity_Const_B">
+ <summary>
+ Solid heat capacity equation B constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Solid_Heat_Capacity_Const_C">
+ <summary>
+ Solid heat capacity equation C constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Solid_Heat_Capacity_Const_D">
+ <summary>
+ Solid heat capacity equation D constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Solid_Heat_Capacity_Const_E">
+ <summary>
+ Solid heat capacity equation E constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Solid_Heat_Capacity_Tmin">
+ <summary>
+ Solid heat capacity equation minimum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Solid_Heat_Capacity_Tmax">
+ <summary>
+ Solid heat capacity equation maximum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Normal_Boiling_Point">
+ <summary>
+ Normal boiling point in K
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.ID">
+ <summary>
+ Unique ID for this compound
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.IsPF">
+ <summary>
+ True if this compound is a petroleum fraction (pseudocompound)
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.IsHYPO">
+ <summary>
+  Deprecated
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.HVap_A">
+ <summary>
+ Heat of vaporization equation A constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.HVap_B">
+ <summary>
+ Heat of vaporization equation B constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.HVap_C">
+ <summary>
+ Heat of vaporization equation C constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.HVap_D">
+ <summary>
+ Heat of vaporization equation D constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.HVap_E">
+ <summary>
+ Heat of vaporization equation E constant
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.HVap_TMIN">
+ <summary>
+ Heat of vaporization equation minimum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.HVap_TMAX">
+ <summary>
+ Heat of vaporization equation maximum temperature
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.UNIQUAC_R">
+ <summary>
+ UNIQUAC R parameter
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.UNIQUAC_Q">
+ <summary>
+ UNIQUAC Q parameter
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.IsFPROPSSupported">
+ <summary>
+ Deprecated
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.IsCOOLPROPSupported">
+ <summary>
+ True if this compound is supported by the CoolProp Property Package
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.IsModified">
+ <summary>
+ True if the data for this compound was modified in memory (when added to a simulation)
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.VaporPressureEquation">
+ <summary>
+ Vapor pressure equation number or expression
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.IdealgasCpEquation">
+ <summary>
+ Ideal Gas Cp equation number or expression
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.LiquidViscosityEquation">
+ <summary>
+ Liquid viscosity equation number or expression
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.VaporViscosityEquation">
+ <summary>
+ Vapor viscosity equation number or expression
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.VaporizationEnthalpyEquation">
+ <summary>
+ Heat of vaporization equation number or expression
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.LiquidDensityEquation">
+ <summary>
+ Liquid density equation number or expression
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.LiquidHeatCapacityEquation">
+ <summary>
+ Liquid heat capacity equation number or expression
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.LiquidThermalConductivityEquation">
+ <summary>
+ Liquid thermal conductivity equation number or expression
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.VaporThermalConductivityEquation">
+ <summary>
+ Vapor thermal conductivity equation number or expression
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.SolidDensityEquation">
+ <summary>
+ Solid density equation number or expression
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.SolidHeatCapacityEquation">
+ <summary>
+ Solid heat capacity equation number or expression
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.SurfaceTensionEquation">
+ <summary>
+ Surface tension equation number or expression
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.PC_SAFT_sigma">
+ <summary>
+ Deprecated
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.PC_SAFT_epsilon_k">
+ <summary>
+ Deprecated
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.PC_SAFT_m">
+ <summary>
+ Deprecated
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.PF_MM">
+ <summary>
+ Molecular weight of the petroleum fraction (redundant, deprecated)
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.NBP">
+ <summary>
+ Normal boiling point in K (redundant, deprecated)
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.PF_vA">
+ <summary>
+ Petroleum fraction viscosity A parameter
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.PF_vB">
+ <summary>
+ Petroleum fraction viscosity B parameter
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.PF_Watson_K">
+ <summary>
+ Petroleum fraction Watson K parameter
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.PF_SG">
+ <summary>
+ Petroleum fraction specific gravity
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.PF_v1">
+ <summary>
+ Petroleum fraction viscosity value 1
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.PF_Tv1">
+ <summary>
+ Petroleum fraction temperature for viscosity value 1 in K
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.PF_v2">
+ <summary>
+ Petroleum fraction viscosity value 2
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.PF_Tv2">
+ <summary>
+ Petroleum fraction temperature for viscosity value 1 in K
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.OriginalDB">
+ <summary>
+ Databases: 'DWSIM', 'CheResources', 'Biodiesel', 'ChemSep', 'CheDL_Thermo' OR 'User'
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.CurrentDB">
+ <summary>
+ Same as Original_DB
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.CompCreatorStudyFile">
+ <summary>
+ If this is an user compound, this will store a reference to the compound creator study file path
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.COSMODBName">
+ <summary>
+ COSMO-SAC's database equivalent name (deprecated)
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.IsIon">
+ <summary>
+ True if this compound is an ion
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.IsSalt">
+ <summary>
+ True if this compound is a salt
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.IsHydratedSalt">
+ <summary>
+ True if this compound is a hydrated salt
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.HydrationNumber">
+ <summary>
+ Hydration number, if hydrated salt
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Charge">
+ <summary>
+ Charge, if ion
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.PositiveIon">
+ <summary>
+ Positive ion formula
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.NegativeIon">
+ <summary>
+ Negative ion formula
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.PositiveIonStoichCoeff">
+ <summary>
+ Positive ion stoichiometric coefficient, if salt
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.NegativeIonStoichCoeff">
+ <summary>
+ Negative ion stoichiometric coefficient, if salt
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.StoichSum">
+ <summary>
+ Sum of stoichiometric coefficients
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Electrolyte_DelGF">
+ <summary>
+ Electrolyte Gibbs energy of formation in kJ/mol
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Electrolyte_DelHF">
+ <summary>
+ Electrolyte enthalpy of formation in kJ/mol
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Electrolyte_Cp0">
+ <summary>
+ Electrolyte standard heat capacity, kJ/mol.K
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.TemperatureOfFusion">
+ <summary>
+ Temperature of fusion in K
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.EnthalpyOfFusionAtTf">
+ <summary>
+ Enthalpy of fusion, kJ/mol
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.SolidTs">
+ <summary>
+ Temperature for solid density (if a single value is available), K
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.SolidDensityAtTs">
+ <summary>
+ Solid density (if a single value is available), kg/m3
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.StandardStateMolarVolume">
+ <summary>
+ Standard State Molar Volume in cm3/mol
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.MolarVolume_v2i">
+ <summary>
+ Molar volume parameter for ion
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.MolarVolume_v3i">
+ <summary>
+ Molar volume parameter for ion
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.MolarVolume_k1i">
+ <summary>
+ Molar volume parameter for ion
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.MolarVolume_k2i">
+ <summary>
+ Molar volume parameter for ion
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.MolarVolume_k3i">
+ <summary>
+ Molar volume parameter for ion
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Ion_CpAq_a">
+ <summary>
+ Cp for aqueous ion solution, parameter A
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Ion_CpAq_b">
+ <summary>
+ Cp for aqueous ion solution, parameter B
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Ion_CpAq_c">
+ <summary>
+ Cp for aqueous ion solution, parameter C
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.IsBlackOil">
+ <summary>
+ True if this compound a black-oil one
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.BO_SGG">
+ <summary>
+ black oil gas specific gravity
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.BO_SGO">
+ <summary>
+ black oil oil specific gravity
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.BO_GOR">
+ <summary>
+ black oil gas-oil ratio (m3/m3 STD)
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.BO_BSW">
+ <summary>
+ black oil basic sediments and water (%)
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.BO_OilVisc1">
+ <summary>
+ black oil oil viscosity at T1 (m2/s)
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.BO_OilViscTemp1">
+ <summary>
+ black oil oil viscosity T1 (K)
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.BO_OilVisc2">
+ <summary>
+ black oil oil viscosity at T2 (m2/s)
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.BO_OilViscTemp2">
+ <summary>
+ black oil oil viscosity T2 (K)
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.BO_PNA_P">
+ <summary>
+ black oil oil parafins percentage
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.BO_PNA_N">
+ <summary>
+ black oil oil napthenics percentage
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.BO_PNA_A">
+ <summary>
+ black oil oil aromatics percentage
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Comments">
+ <summary>
+ variable to hold general comments
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Elements">
+ <summary>
+ List of elements and their amounts
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.UNIFACGroups">
+ <summary>
+ List of UNIFAC groups and their amounts
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.MODFACGroups">
+ <summary>
+ List of MODFAC (Do) groups and their amounts
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.NISTMODFACGroups">
+ <summary>
+ List of MODFAC (NIST) groups and their amounts
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.LennardJonesDiameter">
+ <summary>
+ Lennard Jones diameter in meters
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.LennardJonesEnergy">
+ <summary>
+ Lennard Jones energy in K
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Parachor">
+ <summary>
+ Parachor value in kg^0.25.m3/s^0.5/kmol
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.FullerDiffusionVolume">
+ <summary>
+ Fuller diffusion volume
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:DWSIM.Interfaces.ICompoundConstantProperties.Tag">
+ <summary>
+ for custom ordering purposes
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DWSIM.Interfaces.ICompoundConstantProperties.ExportToJSON">
+ <summary>
+ exports compound data to a JSON file.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DWSIM.Interfaces.ICompoundConstantProperties.ImportFromJSON(System.String)">
+ <summary>
+ import data from a JSON file.
+ </summary>
+ <param name="data"></param>
+</member>
+<member name="M:DWSIM.Interfaces.ICompoundConstantProperties.GetVaporPressure(System.Double,System.String@)">
+ <summary>
+ Returns the Vapor Pressure in Pa
+ </summary>
+ <param name="T">Temperature in K</param>
+ <param name="message"></param>
+ <returns></returns>
+</member>
+<member name="M:DWSIM.Interfaces.ICompoundConstantProperties.GetIdealGasHeatCapacity(System.Double,System.String@)">
+ <summary>
+ Returns the Ideal Gas Heat Capacity in kJ/[kg.K]
+ </summary>
+ <param name="T">Temperature in K</param>
+ <param name="message"></param>
+ <returns></returns>
+</member>
+<member name="M:DWSIM.Interfaces.ICompoundConstantProperties.GetEnthalpyOfVaporization(System.Double,System.String@)">
+ <summary>
+ Returns the Enthalpy of Vaporization in kJ/kg
+ </summary>
+ <param name="T">Temperature in K</param>
+ <param name="message"></param>
+ <returns></returns>
+</member>
+<member name="M:DWSIM.Interfaces.ICompoundConstantProperties.GetVaporViscosity(System.Double,System.String@)">
+ <summary>
+ Returns the Vapor Viscosity in Pa.s
+ </summary>
+ <param name="T">Temperature in K</param>
+ <param name="message"></param>
+ <returns></returns>
+</member>
+<member name="M:DWSIM.Interfaces.ICompoundConstantProperties.GetVaporThermalConductivity(System.Double,System.String@)">
+ <summary>
+ Returns the Vapor Thermal Conductivity in W/(m.K)
+ </summary>
+ <param name="T">Temperature in K</param>
+ <param name="message"></param>
+ <returns></returns>
+</member>
+<member name="M:DWSIM.Interfaces.ICompoundConstantProperties.GetLiquidViscosity(System.Double,System.String@)">
+ <summary>
+ Returns the Liquid Viscosity in Pa.s
+ </summary>
+ <param name="T">Temperature in K</param>
+ <param name="message"></param>
+ <returns></returns>
+</member>
+<member name="M:DWSIM.Interfaces.ICompoundConstantProperties.GetLiquidThermalConductivity(System.Double,System.String@)">
+ <summary>
+ Returns the Liquid Thermal Conductivity in W/(m.K)
+ </summary>
+ <param name="T">Temperature in K</param>
+ <param name="message"></param>
+ <returns></returns>
+</member>
+<member name="M:DWSIM.Interfaces.ICompoundConstantProperties.GetLiquidHeatCapacity(System.Double,System.String@)">
+ <summary>
+ Returns the Liquid Heat Capacity in kJ/[kg.K]
+ </summary>
+ <param name="T">Temperature in K</param>
+ <param name="message"></param>
+ <returns></returns>
+</member>
+<member name="M:DWSIM.Interfaces.ICompoundConstantProperties.GetLiquidDensity(System.Double,System.String@)">
+ <summary>
+ Returns the Liquid Density in kg/m3
+ </summary>
+ <param name="T">Temperature in K</param>
+ <param name="message"></param>
+ <returns></returns>
+</member>
+<member name="M:DWSIM.Interfaces.ICompoundConstantProperties.GetSolidDensity(System.Double,System.String@)">
+ <summary>
+ Returns the Solid Density in kg/m3
+ </summary>
+ <param name="T">Temperature in K</param>
+ <param name="message"></param>
+ <returns></returns>
+</member>
+<member name="M:DWSIM.Interfaces.ICompoundConstantProperties.GetSolidHeatCapacity(System.Double,System.String@)">
+ <summary>
+ Returns the Solid Cp in kJ/[kg.K]
+ </summary>
+ <param name="T">Temperature in K</param>
+ <param name="message"></param>
+ <returns></returns>
+</member>
+<member name="M:DWSIM.Interfaces.ICompoundConstantProperties.ExportToXLSX(System.String)">
+ <summary>
+ exports compound data to a XLSX file.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DWSIM.Interfaces.IExternalLinearSystemSolver.Solve(System.Double[0:,0:],System.Double[])">
+ <summary>
+ Solves a system of linear equations.
+ </summary>
+ <param name="A">Left-side matrix</param>
+ <param name="B">Right-side vector</param>
+ <returns>The solution vector.</returns>
+</member>
+<member name="M:DWSIM.Interfaces.IExternalNonLinearSystemSolver.Solve(System.Func{System.Double[],System.Double[]},System.Func{System.Double[],System.Double[0:,0:]},System.Func{System.Double[],System.Double[],System.Boolean},System.Double[],System.Int32,System.Double)">
+ <summary>
+ Solves a system of non-linear equations.
+ </summary>
+ <param name="functionbody">Function which gets the current x values and returns the function values.</param>
+ <param name="functiongradient">Optional. Function which gets the current x values and returns the gradient values.</param>
+ <param name="iterationcallback">Function called n each iteration step. First argument is the x-vector, second argument is f-vector. Return true to stop the iterations or false to continue.</param>
+ <param name="vars">Initial value of the variables.</param>
+ <param name="maxits">Maximum iterations.</param>
+ <param name="tolerance">Tolerance for solution.</param>
+ <returns>The solution vector.</returns>
+</member>
+<member name="M:DWSIM.Interfaces.IExternalNonLinearMinimizationSolver.Solve(System.Func{System.Double[],System.Double},System.Func{System.Double[],System.Double[]},System.Func{System.Double[],System.Double,System.Boolean},System.Double[],System.Double[],System.Double[],System.Int32,System.Double)">
+ <summary>
+ Minimizes a black-box non-linear equation.
+ </summary>
+ <param name="functionbody">Function which gets the current x values and returns the function value.</param>
+ <param name="functiongradient">Optional. Function which gets the current x values and returns the gradient values.</param>
+ <param name="iterationcallback">Function called n each iteration step. First argument is the x-vector, second argument is function value. Return true to stop the iterations or false to continue.</param>
+ <param name="vars">Initial value of the variables.</param>
+ <param name="lbounds">Optional. Lower bounds for variables.</param>
+ <param name="ubounds">Optional. Upper bounds for variables.</param>
+ <param name="maxits">Maximum iterations.</param>
+ <param name="tolerance">Tolerance for solution.</param>
+ <returns>The solution vector corresponding to the function minimum.</returns>
+</member>
+<member name="M:DWSIM.Interfaces.IExternalODESolver.InitializeODEs(System.Func{System.Double,System.Double[],System.Double[]},System.Int32,System.Double,System.Double[])">
+ <summary>
+ Method that initializes the ODE to solve.
+ </summary>
+ <param name="odefunc">A function that evaluates the right side of the differential equations.</param>
+ <param name="n">The number of differential equations.</param>
+ <param name="x0">The initial value for the independent variable.</param>
+ <param name="y0">A vector of size N containing the initial conditions. N is the number of differential equations.</param>
+</member>
+<member name="M:DWSIM.Interfaces.IExternalODESolver.Solve(System.Double[],System.Double,System.Double,System.Double,System.Action{System.Double,System.Double[]},System.Double)">
+ <summary>
+ Computes the solution of the ordinary differential equations.
+ </summary>
+ <param name="y0">A vector of size N containing the initial conditions. N is the number of differential equations.</param>
+ <param name="x0">The initial independent variable value.</param>
+ <param name="deltax">The step for the interval of integration (x0, x0+deltax, x0+2*deltax,...,xf).</param>
+ <param name="xf">The final independent variable value.</param>
+ <param name="odesolution">A delegate where to return the solution.</param>
+ <param name="tolerance">Tolerance for solution.</param>
+</member>
+<member name="T:DWSIM.Interfaces.IFlashAlgorithm">
+ <summary>
+ This interface defines the basic properties of a flash algorithm, including an instance of the class which contains its current settings.
+ </summary>
+</member>
+<member name="T:DWSIM.Interfaces.IFlashCalculationResult">
+ <summary>
+ This interface defines the parameters of a flash calculation result.
+ </summary>
+</member>
+<member name="T:DWSIM.Interfaces.IFlowsheet">
+ <summary>
+ The IFlowsheet interface is the main interface which should be implemented by the Flowsheet class. 
+ It provides direct access to the various flowsheet components and helper functions to manipulate objects.
+ </summary>
+</member>
+<member name="T:DWSIM.Interfaces.IFlowsheetBag">
+ <summary>
+ This is an interface which provides direct access to collections of flowsheet objects.
+ </summary>
+</member>
+<member name="T:DWSIM.Interfaces.IFlowsheetGUI">
+ <summary>
+ This is an interface which defines helper functions to a Flowsheet GUI implementation.
+ </summary>
+</member>
+<member name="T:DWSIM.Interfaces.IFlowsheetCalculationQueue">
+ <summary>
+ This interface defines the calculation queue to be used by the flowsheet solver.
+ </summary>
+</member>
+<member name="T:DWSIM.Interfaces.IFlowsheetNewMessageSentEvent">
+ <summary>
+ This interface defines an event raised when a new message is sent to the flowsheet log, 
+ to be catched by an object when the automation is being done through a COM association.
+ </summary>
+</member>
+<member name="T:DWSIM.Interfaces.IFlowsheetOptions">
+ <summary>
+ This interface defines the flowsheet settings and other properties.
+ </summary>
+</member>
+<member name="T:DWSIM.Interfaces.IGraphicObject">
+ <summary>
+ This interface defines the basic properties for a graphical representation of an object in the flowsheet PFD.
+ </summary>
+</member>
+<member name="T:DWSIM.Interfaces.IDynamicsIntegrator">
+ <summary>
+ This interface defines the basic properties of the Dynamic Mode Integrator.
+ </summary>
+</member>
+<member name="T:DWSIM.Interfaces.IMaterialStream">
+ <summary>
+ This is the interface which defines the basic properties of a Material Stream.
+ </summary>
+</member>
+<member name="T:DWSIM.Interfaces.IExtenderCollection">
+ <summary>
+ 
+ </summary>
+</member>
+<member name="T:DWSIM.Interfaces.IPropertyPackage">
+ <summary>
+ This interface defines the basic Property Package funcionality to be exposed for communication between the various DWSIM components.
+ The actual Property Package class exposes much more funcionality through the implementation of other interfaces, including CAPE-OPEN ones.
+ </summary>
+</member>
+<member name="T:DWSIM.Interfaces.IExternalUnitOperation">
+ <summary>
+ This interface defines the basic properties for a graphical representation of an object in the flowsheet PFD.
+ </summary>
+</member>
+<member name="T:DWSIM.Interfaces.ISimulationObject">
+ <summary>
+ This interface defines the basic properties of Simulation Objects (Unit Operations, Material Streams and Energy Streams)
+ </summary>
+</member>
+<member name="M:DWSIM.Interfaces.ISimulationObject.GetProperties(DWSIM.Interfaces.Enums.PropertyType)">
+ <summary>
+ Get a list of all properties of the object.
+ </summary>
+ <param name="proptype">Type of the property.</param>
+ <returns>A list of property identifiers.</returns>
+ <remarks>More details at http://dwsim.inforside.com.br/wiki/index.php?title=Object_Property_Codes </remarks>
+</member>
+<member name="M:DWSIM.Interfaces.ISimulationObject.GetPropertyValue(System.String,DWSIM.Interfaces.IUnitsOfMeasure)">
+ <summary>
+ Gets the value of a property.
+ </summary>
+ <param name="prop">Property identifier.</param>
+ <param name="su">Units system to use. Null to use the default (SI) system.</param>
+ <returns>Property value.</returns>
+ <remarks>More details at http://dwsim.inforside.com.br/wiki/index.php?title=Object_Property_Codes </remarks>
+</member>
+<member name="M:DWSIM.Interfaces.ISimulationObject.GetPropertyUnit(System.String,DWSIM.Interfaces.IUnitsOfMeasure)">
+ <summary>
+ Gets the units of a property.
+ </summary>
+ <param name="prop">Property identifier.</param>
+ <param name="su">Units system to use. Null to use the default (SI) system.</param>
+ <returns>Property units.</returns>
+ <remarks>More details at http://dwsim.inforside.com.br/wiki/index.php?title=Object_Property_Codes </remarks>
+</member>
+<member name="M:DWSIM.Interfaces.ISimulationObject.SetPropertyValue(System.String,System.Object,DWSIM.Interfaces.IUnitsOfMeasure)">
+ <summary>
+ Sets the value of a property.
+ </summary>
+ <param name="prop">Property identifier.</param>
+ <param name="propval">Property value to set at the specified units.</param>
+ <param name="su">Units system to use. Null to use the default (SI) system.</param>
+ <returns></returns>
+ <remarks>More details at http://dwsim.inforside.com.br/wiki/index.php?title=Object_Property_Codes </remarks>
+</member>
+<member name="P:DWSIM.Interfaces.ISimulationObject.IsAdjustAttached">
+ <summary>
+ Checks if an Adjust operation is attached to this object.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DWSIM.Interfaces.ISimulationObject.AttachedAdjustId">
+ <summary>
+ If an Adjust object is attached to this object, returns its ID.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DWSIM.Interfaces.ISimulationObject.AdjustVarType">
+ <summary>
+ If an Adjust object is attached to this object, returns a variable describing how this object is used by it (manipulated, controlled or reference).
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DWSIM.Interfaces.ISimulationObject.IsSpecAttached">
+ <summary>
+ Checks if an Specification operation is attached to this object.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DWSIM.Interfaces.ISimulationObject.AttachedSpecId">
+ <summary>
+ If an Specification object is attached to this object, returns its ID.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DWSIM.Interfaces.ISimulationObject.SpecVarType">
+ <summary>
+ If an Specification object is attached to this object, returns a variable describing how this object is used by it (target or source).
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DWSIM.Interfaces.IUnitsOfMeasure">
+ <summary>
+ This interface defines the basic properties of a System of Units class.
+ </summary>
+</member>
+<member name="P:DWSIM.Interfaces.IUtilityPlugin5.UtilityForm">
+ <summary>
+ This must be an instance of Eto.Forms.Form
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

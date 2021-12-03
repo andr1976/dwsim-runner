@@ -1,0 +1,41 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<configuration>
+   <runtime>
+      <loadFromRemoteSources enabled="true"/>
+   </runtime>
+</configuration>
+<name>
+AFlashPropertyPackage
+</name>
+</assembly>
+<members>
+<member name="T:AFlashPropertyPackage.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:AFlashPropertyPackage.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:AFlashPropertyPackage.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:AFlashPropertyPackage.LibraryLoader.DLL1Name">
+ <summary>
+ DLL Name
+ </summary>
+</member>
+<member name="M:AFlashPropertyPackage.LibraryLoader.Load">
+ <summary>
+ Preload the DLL
+ </summary>
+</member>
+</members>
+</doc>

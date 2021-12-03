@@ -1,0 +1,280 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DWSIM.FlowsheetSolver
+</name>
+</assembly>
+<members>
+<member name="T:DWSIM.FlowsheetSolver.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DWSIM.FlowsheetSolver.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DWSIM.FlowsheetSolver.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.CalculateObject(System.Object,DWSIM.FlowsheetSolver.CalculationArgs,System.Object,System.Boolean)">
+ <summary>
+ Flowsheet calculation routine 1. Calculates the object using information sent by the queue and updates the flowsheet.
+ </summary>
+ <param name="fobj">Flowsheet to calculate (FormChild object).</param>
+ <param name="objArgs">A CalculationArgs object containing information about the object to be calculated and its current status.</param>
+ <param name="sender"></param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.CalculateObjectAsync(System.Object,DWSIM.FlowsheetSolver.CalculationArgs,System.Threading.CancellationToken)">
+ <summary>
+ Calculates the flowsheet objects asynchronously. This function is always called from a task or a different thread other than UI's.
+ </summary>
+ <param name="fobj">Flowsheet to calculate (FormChild object).</param>
+ <param name="objArgs">A CalculationArgs object containing information about the object to be calculated and its current status.</param>
+ <param name="ct">The cancellation token, used to listen for calculation cancellation requests from the user.</param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.CalculateMaterialStream(System.Object,DWSIM.Interfaces.ISimulationObject,System.Boolean,System.Boolean)">
+ <summary>
+ Material Stream calculation routine 1. This routine check all input values and calculates all remaining properties of the stream.
+ </summary>
+ <param name="fobj">Flowsheet to what the stream belongs to.</param>
+ <param name="ms">Material Stream object to be calculated.</param>
+ <param name="DoNotCalcFlash">Tells the calculator whether to do flash calculations or not.</param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.CalculateMaterialStreamAsync(System.Object,DWSIM.Interfaces.ISimulationObject,System.Threading.CancellationToken)">
+ <summary>
+ Calculates a material stream object asynchronously. This function is always called from a task or a different thread other than UI's.
+ </summary>
+ <param name="fobj">Flowsheet to what the stream belongs to.</param>
+ <param name="ms">Material Stream object to be calculated.</param>
+ <param name="ct">The cancellation token, used to listen for calculation cancellation requests from the user.</param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.ProcessCalculationQueue(System.Object,System.Boolean,System.Boolean,System.Int32,System.Object,System.Threading.CancellationToken,System.Boolean)">
+ <summary>
+ Process the calculation queue of the Flowsheet passed as an argument. Checks all elements in the queue and calculates them.
+ </summary>
+ <param name="fobj">Flowsheet to be calculated (FormChild object)</param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.ProcessQueueInternal(System.Object,System.Boolean,System.Boolean,System.Threading.CancellationToken)">
+ <summary>
+ This is the internal routine called by ProcessCalculationQueue when the UI thread is used to calculate the flowsheet.
+ </summary>
+ <param name="fobj">Flowsheet to be calculated (FormChild object)</param>
+ <param name="Isolated">Tells to the calculator that only the objects in the queue must be calculated without checking the outlet connections, that is, no more objects will be added to the queue</param>
+ <param name="FlowsheetSolverMode">Only objects added by the flowsheet solving routine to the queue will be calculated.</param>
+ <param name="ct">The cancellation token, used to listen for calculation cancellation requests from the user.</param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.ProcessQueueInternalAsync(System.Object,System.Threading.CancellationToken)">
+ <summary>
+ This is the internal routine called by ProcessCalculationQueue when a background thread is used to calculate the flowsheet.
+ </summary>
+ <param name="fobj">Flowsheet to be calculated (FormChild object)</param>
+ <param name="ct">The cancellation token, used to listen for calculation cancellation requests from the user.</param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.ProcessQueueInternalAsyncParallel(System.Object,System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{DWSIM.FlowsheetSolver.CalculationArgs}},System.Threading.CancellationToken)">
+ <summary>
+ This is the internal routine called by ProcessCalculationQueue when background parallel threads are used to calculate the flowsheet.
+ </summary>
+ <param name="fobj">Flowsheet to be calculated (FormChild object)</param>
+ <param name="ct">The cancellation token, used to listen for calculation cancellation requests from the user.</param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.CheckCalculatorStatus">
+ <summary>
+ Checks the calculator status to see if the user did any stop/abort request, and throws an exception to force aborting, if necessary.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.UpdateDisplayStatus(System.Object,System.String[],System.Boolean)">
+ <summary>
+ This routine updates the display status of a list of graphic objects in the flowsheet according to their calculated status.
+ </summary>
+ <param name="fobj">Flowsheet to be calculated (FormChild object).</param>
+ <param name="ObjIDlist">List of object IDs to be updated.</param>
+ <param name="calculating">Tell the routine that the objects in the list are being calculated at the moment.</param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.GetSolvingList(System.Object,System.Boolean)">
+ <summary>
+ Retrieves the list of objects to be solved in the flowsheet.
+ </summary>
+ <param name="fobj">Flowsheet to be calculated (FormChild object)</param>
+ <param name="frompgrid">Starts the search from the edited object if the propert was changed from the property grid.</param>
+ <returns>A list of objects to be calculated in the flowsheet.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.SolveFlowsheet(System.Object,System.Int32,System.Threading.CancellationTokenSource,System.Boolean,System.Boolean,System.Action,System.Action,System.Action,System.Boolean)">
+ <summary>
+ Calculate all objects in the Flowsheet using a ordering method.
+ </summary>
+ <param name="fobj">Flowsheet to be calculated (FormFlowsheet object).</param>
+ <param name="Adjusting">True if the routine is called from the Simultaneous Adjust Solver.</param>
+ <param name="frompgrid">True if the routine is called from a PropertyGrid PropertyChanged event.</param>
+ <param name="mode">0 = Main Thread, 1 = Background Thread, 2 = Background Parallel Threads, 3 = Azure Service Bus, 4 = Network Computer</param>
+ <param name="ts">CancellationTokenSource instance from main flowsheet when calculating subflowsheets.</param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.CalculateObject(System.Object,System.String)">
+ <summary>
+ Calculates a single object in the Flowsheet.
+ </summary>
+ <param name="fobj">Flowsheet where the object belongs to.</param>
+ <param name="ObjID">Unique Id of the object ("Name" or "GraphicObject.Name" properties). This is not the object's Flowsheet display name ("Tag" property or its GraphicObject object).</param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.CalculateObjectSync(System.Object,System.String)">
+ <summary>
+ Calculates a single object in the Flowsheet.
+ </summary>
+ <param name="fobj">Flowsheet where the object belongs to.</param>
+ <param name="ObjID">Unique Id of the object ("Name" or "GraphicObject.Name" properties). This is not the object's Flowsheet display name ("Tag" property or its GraphicObject object).</param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.CalculateObjectAsync(System.Object,System.String,System.Threading.CancellationToken)">
+ <summary>
+ Calculates a single object in the Flowsheet.
+ </summary>
+ <param name="fobj">Flowsheet where the object belongs to.</param>
+ <param name="ObjID">Unique Id of the object ("Name" or "GraphicObject.Name" properties). This is not the object's Flowsheet display name ("Tag" property or its GraphicObject object).</param>
+ <param name="ct">The cancellation token, used to listen for calculation cancellation requests from the user.</param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.SolveSimultaneousAdjusts(System.Object)">
+ <summary>
+ Simultaneous adjust solver routine.
+ </summary>
+ <param name="fobj">Flowsheet where the object belongs to.</param>
+ <remarks>Solves all marked Adjust objects in the flowsheet simultaneously using Netwon's method.</remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.SolveSimultaneousAdjustsAsync(System.Object,System.Threading.CancellationToken)">
+ <summary>
+ Async simultaneous adjust solver routine.
+ </summary>
+ <param name="fobj">Flowsheet where the object belongs to.</param>
+ <param name="ct">The cancellation token, used to listen for calculation cancellation requests from the user.</param>
+ <remarks>Solves all marked Adjust objects in the flowsheet simultaneously using Netwon's method.</remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.FunctionValueSync(System.Object,System.Double[])">
+ <summary>
+ Function called by the simultaneous adjust solver. Retrieves the error function value for each adjust object.
+ </summary>
+ <param name="fobj">Flowsheet where the object belongs to.</param>
+ <param name="x"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.FunctionGradientSync(System.Object,System.Double[])">
+ <summary>
+ Gradient function called by the simultaneous adjust solver. Retrieves the gradient of the error function value for each adjust object.
+ </summary>
+ <param name="fobj">Flowsheet where the object belongs to.</param>
+ <param name="x"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.FunctionValueAsync(System.Object,System.Double[],System.Threading.CancellationToken)">
+ <summary>
+ Function called asynchronously by the simultaneous adjust solver. Retrieves the error function value for each adjust object.
+ </summary>
+ <param name="fobj">Flowsheet where the object belongs to.</param>
+ <param name="x"></param>
+ <param name="ct">The cancellation token, used to listen for calculation cancellation requests from the user.</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.FunctionGradientAsync(System.Object,System.Double[],System.Threading.CancellationToken)">
+ <summary>
+ Gradient function called asynchronously by the simultaneous adjust solver. Retrieves the gradient of the error function value for each adjust object.
+ </summary>
+ <param name="fobj">Flowsheet where the object belongs to.</param>
+ <param name="x"></param>
+ <param name="ct">The cancellation token, used to listen for calculation cancellation requests from the user.</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.GetCtlVarValue(System.Object,DWSIM.Interfaces.IAdjust)">
+ <summary>
+ Gets the controlled variable value for the selected adjust op.
+ </summary>
+ <param name="fobj"></param>
+ <param name="adj"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.GetMnpVarValue(System.Object,DWSIM.Interfaces.IAdjust)">
+ <summary>
+ Gets the manipulated variable value for the selected adjust op.
+ </summary>
+ <param name="fobj"></param>
+ <param name="adj"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.SetMnpVarValue(System.Nullable{System.Double},System.Object,DWSIM.Interfaces.IAdjust)">
+ <summary>
+ Sets the manipulated variable value for the selected adjust op.
+ </summary>
+ <param name="fobj"></param>
+ <param name="adj"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.FlowsheetSolver.FlowsheetSolver.GetRefVarValue(System.Object,DWSIM.Interfaces.IAdjust)">
+ <summary>
+ Gets the referenced variable value for the selected adjust op.
+ </summary>
+ <param name="fobj"></param>
+ <param name="adj"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DWSIM.FlowsheetSolver.TaskSchedulers.StaTaskScheduler">
+ <summary>Provides a scheduler that uses STA threads.</summary> 
+</member>
+<member name="F:DWSIM.FlowsheetSolver.TaskSchedulers.StaTaskScheduler._tasks">
+ <summary>Stores the queued tasks to be executed by our pool of STA threads.</summary> 
+</member>
+<member name="F:DWSIM.FlowsheetSolver.TaskSchedulers.StaTaskScheduler._threads">
+ <summary>The STA threads used by the scheduler.</summary> 
+</member>
+<member name="M:DWSIM.FlowsheetSolver.TaskSchedulers.StaTaskScheduler.#ctor(System.Int32)">
+ <summary>Initializes a new instance of the StaTaskScheduler class with the specified concurrency level.</summary> 
+ <param name="numberOfThreads">The number of threads that should be created and used by this scheduler.</param> 
+</member>
+<member name="M:DWSIM.FlowsheetSolver.TaskSchedulers.StaTaskScheduler.QueueTask(System.Threading.Tasks.Task)">
+ <summary>Queues a Task to be executed by this scheduler.</summary> 
+ <param name="task">The task to be executed.</param> 
+</member>
+<member name="M:DWSIM.FlowsheetSolver.TaskSchedulers.StaTaskScheduler.GetScheduledTasks">
+ <summary>Provides a list of the scheduled tasks for the debugger to consume.</summary> 
+ <returns>An enumerable of all tasks currently scheduled.</returns> 
+</member>
+<member name="M:DWSIM.FlowsheetSolver.TaskSchedulers.StaTaskScheduler.TryExecuteTaskInline(System.Threading.Tasks.Task,System.Boolean)">
+ <summary>Determines whether a Task may be inlined.</summary> 
+ <param name="task">The task to be executed.</param> 
+ <param name="taskWasPreviouslyQueued">Whether the task was previously queued.</param> 
+ <returns>true if the task was successfully inlined; otherwise, false.</returns> 
+</member>
+<member name="P:DWSIM.FlowsheetSolver.TaskSchedulers.StaTaskScheduler.MaximumConcurrencyLevel">
+ <summary>Gets the maximum concurrency level supported by this scheduler.</summary> 
+</member>
+<member name="M:DWSIM.FlowsheetSolver.TaskSchedulers.StaTaskScheduler.Dispose">
+ <summary> 
+ Cleans up the scheduler by indicating that no more tasks will be queued. 
+ This method blocks until all threads successfully shutdown. 
+ </summary> 
+</member>
+</members>
+</doc>

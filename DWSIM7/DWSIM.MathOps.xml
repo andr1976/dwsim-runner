@@ -1,0 +1,111 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DWSIM.MathOps
+</name>
+</assembly>
+<members>
+<member name="T:DWSIM.MathOps.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DWSIM.MathOps.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DWSIM.MathOps.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:DWSIM.MathOps.MathEx.Optimization.IPOPTSolver.Solve(System.Func{System.Double[],System.Double},System.Func{System.Double[],System.Double[]},System.Double[],System.Double[],System.Double[])">
+ <summary>
+ Minimizes a function value using IPOPT solver.
+ </summary>
+ <param name="functionbody">f(x) where x is a vector of doubles, returns the value of the function.</param>
+ <param name="functiongradient">Optional. g(x) where x is a vector of doubles, returns the value of the gradient of the function with respect to each variable.</param>
+ <param name="vars">initial values for x</param>
+ <param name="lbounds">lower bounds for x</param>
+ <param name="ubounds">upper bounds for x</param>
+ <returns>vector of variables corresponding to the function's minimum value.</returns>
+</member>
+<member name="M:DWSIM.MathOps.MathEx.Optimization.NewtonSolver.Solve(System.Func{System.Double[],System.Double[]},System.Double[])">
+ <summary>
+ Solves a system of non-linear equations [f(x) = 0] using newton's method.
+ </summary>
+ <param name="functionbody">f(x) where x is a vector of double, returns the error values for each x</param>
+ <param name="vars">initial values for x</param>
+ <returns>vector of variables which solve the equations according to the minimum allowable error value (tolerance).</returns>
+</member>
+<member name="M:DWSIM.MathOps.MathEx.OptimizationL.DE.Solve(System.Func{System.Double[],System.Double},System.Func{System.Double[],System.Double[]},System.Double[],System.Double[],System.Double[])">
+ <summary>
+ Minimizes a function value using DE algorithm.
+ </summary>
+ <param name="functionbody">f(x) where x is a vector of doubles, returns the value of the function.</param>
+ <param name="functiongradient">Optional. g(x) where x is a vector of doubles, returns the value of the gradient of the function with respect to each variable.</param>
+ <param name="vars">initial values for x</param>
+ <param name="lbounds">lower bounds for x</param>
+ <param name="ubounds">upper bounds for x</param>
+ <returns>vector of variables corresponding to the function's minimum value.</returns>
+</member>
+<member name="M:DWSIM.MathOps.MathEx.OptimizationL.HillClimbing.Solve(System.Func{System.Double[],System.Double},System.Func{System.Double[],System.Double[]},System.Double[],System.Double[],System.Double[])">
+ <summary>
+ Minimizes a function value using HC algorithm.
+ </summary>
+ <param name="functionbody">f(x) where x is a vector of doubles, returns the value of the function.</param>
+ <param name="functiongradient">Optional. g(x) where x is a vector of doubles, returns the value of the gradient of the function with respect to each variable.</param>
+ <param name="vars">initial values for x</param>
+ <param name="lbounds">lower bounds for x</param>
+ <param name="ubounds">upper bounds for x</param>
+ <returns>vector of variables corresponding to the function's minimum value.</returns>
+</member>
+<member name="M:DWSIM.MathOps.MathEx.OptimizationL.HookeAndJeeves.Solve(System.Func{System.Double[],System.Double},System.Func{System.Double[],System.Double[]},System.Double[],System.Double[],System.Double[])">
+ <summary>
+ Minimizes a function value using HJ algorithm.
+ </summary>
+ <param name="functionbody">f(x) where x is a vector of doubles, returns the value of the function.</param>
+ <param name="functiongradient">Optional. g(x) where x is a vector of doubles, returns the value of the gradient of the function with respect to each variable.</param>
+ <param name="vars">initial values for x</param>
+ <param name="lbounds">lower bounds for x</param>
+ <param name="ubounds">upper bounds for x</param>
+ <returns>vector of variables corresponding to the function's minimum value.</returns>
+</member>
+<member name="M:DWSIM.MathOps.MathEx.OptimizationL.Newton.Solve(System.Func{System.Double[],System.Double},System.Func{System.Double[],System.Double[]},System.Double[],System.Double[],System.Double[])">
+ <summary>
+ Minimizes a function value using HC algorithm.
+ </summary>
+ <param name="functionbody">f(x) where x is a vector of doubles, returns the value of the function.</param>
+ <param name="functiongradient">Optional. g(x) where x is a vector of doubles, returns the value of the gradient of the function with respect to each variable.</param>
+ <param name="vars">initial values for x</param>
+ <param name="lbounds">lower bounds for x</param>
+ <param name="ubounds">upper bounds for x</param>
+ <returns>vector of variables corresponding to the function's minimum value.</returns>
+</member>
+<member name="M:DWSIM.MathOps.MathEx.OptimizationL.PSO.Solve(System.Func{System.Double[],System.Double},System.Func{System.Double[],System.Double[]},System.Double[],System.Double[],System.Double[])">
+ <summary>
+ Minimizes a function value using PSO algorithm.
+ </summary>
+ <param name="functionbody">f(x) where x is a vector of doubles, returns the value of the function.</param>
+ <param name="functiongradient">Optional. g(x) where x is a vector of doubles, returns the value of the gradient of the function with respect to each variable.</param>
+ <param name="vars">initial values for x</param>
+ <param name="lbounds">lower bounds for x</param>
+ <param name="ubounds">upper bounds for x</param>
+ <returns>vector of variables corresponding to the function's minimum value.</returns>
+</member>
+<member name="M:DWSIM.MathOps.MathEx.OptimizationL.SimulatedAnnealing.Solve(System.Func{System.Double[],System.Double},System.Func{System.Double[],System.Double[]},System.Double[],System.Double[],System.Double[])">
+ <summary>
+ Minimizes a function value using SA algorithm.
+ </summary>
+ <param name="functionbody">f(x) where x is a vector of doubles, returns the value of the function.</param>
+ <param name="functiongradient">Optional. g(x) where x is a vector of doubles, returns the value of the gradient of the function with respect to each variable.</param>
+ <param name="vars">initial values for x</param>
+ <param name="lbounds">lower bounds for x</param>
+ <param name="ubounds">upper bounds for x</param>
+ <returns>vector of variables corresponding to the function's minimum value.</returns>
+</member>
+</members>
+</doc>

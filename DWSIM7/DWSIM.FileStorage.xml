@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DWSIM.FileStorage</name>
+    </assembly>
+    <members>
+        <member name="T:DWSIM.FileStorage.FileDatabaseProvider">
+            <summary>
+            File Database Provider for DWSIM, based on LiteDB.
+            </summary>
+        </member>
+        <member name="P:DWSIM.FileStorage.FileDatabaseProvider.IsDatabaseLoaded">
+            <summary>
+            Checks if the database is loaded.
+            </summary>
+        </member>
+        <member name="M:DWSIM.FileStorage.FileDatabaseProvider.CheckIfExists(System.String)">
+            <summary>
+            Checks if the given file exists in the database.
+            </summary>
+            <param name="filename">Filename to search.</param>
+            <returns>True if the file exists.</returns>
+        </member>
+        <member name="M:DWSIM.FileStorage.FileDatabaseProvider.ExportDatabase(System.String)">
+            <summary>
+            Exports the embedded database to a file.
+            </summary>
+            <param name="filepath">Filename to export the database to.</param>
+        </member>
+        <member name="M:DWSIM.FileStorage.FileDatabaseProvider.ExportFile(System.String,System.String)">
+            <summary>
+            Exports a file/item from the database to a file in the filesystem.
+            </summary>
+            <param name="filename">file item to export.</param>
+            <param name="exportpath">Path with filename to save the item to.</param>
+        </member>
+        <member name="M:DWSIM.FileStorage.FileDatabaseProvider.GetFileAsImage(System.String)">
+            <summary>
+            Returns a stored image file as a System.Drawing.Image object.
+            </summary>
+            <param name="filename">Image file name in the database.</param>
+            <returns>A System.Drawing.Image object.</returns>
+        </member>
+        <member name="M:DWSIM.FileStorage.FileDatabaseProvider.GetFileAsEtoBitmap(System.String)">
+            <summary>
+            Returns a stored image file as an Eto.Drawing.Bitmap object.
+            </summary>
+            <param name="filename">Image file name in the database.</param>
+            <returns>An Eto.Drawing.Bitmap object.</returns>
+        </member>
+        <member name="M:DWSIM.FileStorage.FileDatabaseProvider.GetFileAsText(System.String)">
+            <summary>
+            Returns the file contents as plain text.
+            </summary>
+            <param name="filename">File/Item name in the database.</param>
+            <returns>The file contents as plain text.</returns>
+        </member>
+        <member name="M:DWSIM.FileStorage.FileDatabaseProvider.GetFiles">
+            <summary>
+            Gets a list of all files in the database.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DWSIM.FileStorage.FileDatabaseProvider.GetFileStream(System.String)">
+            <summary>
+            Gets the contents of a file as a memory stream.
+            </summary>
+            <param name="filename">File/Item name</param>
+            <returns>A MemoryStream object containing the item.</returns>
+        </member>
+        <member name="M:DWSIM.FileStorage.FileDatabaseProvider.LoadDatabase(System.String)">
+            <summary>
+            For internal use only.
+            </summary>
+            <param name="dbpath"></param>
+        </member>
+        <member name="M:DWSIM.FileStorage.FileDatabaseProvider.PutFile(System.String)">
+            <summary>
+            Stores a file in the database.
+            </summary>
+            <param name="filepath">Path of the file to import.</param>
+        </member>
+        <member name="M:DWSIM.FileStorage.FileDatabaseProvider.ReleaseDatabase">
+            <summary>
+            For internal use only.
+            </summary>
+        </member>
+        <member name="M:DWSIM.FileStorage.FileDatabaseProvider.DeleteFile(System.String)">
+            <summary>
+            Removes a file from the database.
+            </summary>
+            <param name="filename">File/Item name.</param>
+        </member>
+        <member name="M:DWSIM.FileStorage.FileDatabaseProvider.CreateDatabase">
+            <summary>
+            For internal use only.
+            </summary>
+        </member>
+        <member name="M:DWSIM.FileStorage.FileDatabaseProvider.GetSizeinKB">
+            <summary>
+            Gets the database size in kilobytes.
+            </summary>
+            <returns>DB size in KB.</returns>
+        </member>
+    </members>
+</doc>

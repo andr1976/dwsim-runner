@@ -1,0 +1,231 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DWSIM.SharedClasses
+</name>
+</assembly>
+<members>
+<member name="T:DWSIM.SharedClasses.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DWSIM.SharedClasses.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DWSIM.SharedClasses.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:DWSIM.SharedClasses.My.Resources.Resources.canvas_size">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.SharedClasses.My.Resources.Resources.icons8_spy_male">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.SharedClasses.My.Resources.Resources.location_pin">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.SharedClasses.UnitOperations.BaseClass.FlowSheet">
+ <summary>
+ Gets the current flowsheet where this object is located.
+ </summary>
+ <value></value>
+ <returns>Flowsheet instance.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.SharedClasses.UnitOperations.BaseClass.Calculate(System.Object)">
+ <summary>
+ Calculates the object.
+ </summary>
+ <param name="args"></param>
+ <remarks>Use 'Solve()' to calculate the object instead.</remarks>
+</member>
+<member name="P:DWSIM.SharedClasses.UnitOperations.BaseClass.EnergyFlow">
+ <summary>
+ Energy Flow property. Only implemented for Energy Streams.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DWSIM.SharedClasses.UnitOperations.BaseClass.Phases">
+ <summary>
+ Phase collection, only implemented for Material Streams.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.SharedClasses.UnitOperations.BaseClass.Validate">
+ <summary>
+ Validates the object, checking its connections and other parameters.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DWSIM.SharedClasses.UnitOperations.BaseClass.ErrorMessage">
+ <summary>
+ Gets or sets the error message regarding the last calculation attempt.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.SharedClasses.UnitOperations.BaseClass.CheckSpec(System.Double,System.Boolean,System.String)">
+ <summary>
+ Checks if a value is valid.
+ </summary>
+ <param name="val">Value to be checked.</param>
+ <param name="onlypositive">Value should be a positive double or not.</param>
+ <param name="paramname">Name of the parameter (ex. P, T, W, H etc.)</param>
+ <remarks></remarks>
+</member>
+<member name="P:DWSIM.SharedClasses.UnitOperations.BaseClass.IsAdjustAttached">
+ <summary>
+ Checks if an Adjust operation is attached to this object.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DWSIM.SharedClasses.UnitOperations.BaseClass.AttachedAdjustId">
+ <summary>
+ If an Adjust object is attached to this object, returns its ID.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DWSIM.SharedClasses.UnitOperations.BaseClass.AdjustVarType">
+ <summary>
+ If an Adjust object is attached to this object, returns a variable describing how this object is used by it (manipulated, controlled or reference).
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DWSIM.SharedClasses.UnitOperations.BaseClass.IsSpecAttached">
+ <summary>
+ Checks if an Specification operation is attached to this object.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DWSIM.SharedClasses.UnitOperations.BaseClass.AttachedSpecId">
+ <summary>
+ If an Specification object is attached to this object, returns its ID.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DWSIM.SharedClasses.UnitOperations.BaseClass.SpecVarType">
+ <summary>
+ If an Specification object is attached to this object, returns a variable describing how this object is used by it (target or source).
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DWSIM.SharedClasses.UnitOperations.BaseClass.GraphicObject">
+ <summary>
+ Gets or sets the graphic object representation of this object in the flowsheet.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:DWSIM.SharedClasses.UnitOperations.BaseClass.Name">
+ <summary>
+ Object's Unique ID (Name)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks>This property is the same as the graphic object 'Name' property.</remarks>
+</member>
+<member name="M:DWSIM.SharedClasses.UnitOperations.BaseClass.Clone">
+ <summary>
+ Clones the current object, returning a new one with identical properties.
+ </summary>
+ <returns>An object of the same type with the same properties.</returns>
+ <remarks>Properties and fields marked with the 'NonSerializable' attribute aren't cloned.</remarks>
+</member>
+<member name="M:DWSIM.SharedClasses.UnitOperations.BaseClass.LoadData(System.Collections.Generic.List{System.Xml.Linq.XElement})">
+ <summary>
+ Loads object data stored in a collection of XML elements.
+ </summary>
+ <param name="data"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.SharedClasses.UnitOperations.BaseClass.SaveData">
+ <summary>
+ Saves object data in a collection of XML elements.
+ </summary>
+ <returns>A List of XML elements containing object data.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.SharedClasses.UnitOperations.BaseClass.CopyDataToClipboard(DWSIM.SharedClasses.SystemsOfUnits.Units,System.String)">
+ <summary>
+ Copies the object properties to the Clipboard.
+ </summary>
+ <param name="su">Units system to use.</param>
+ <param name="nf">Number format to use.</param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.SharedClasses.UnitOperations.BaseClass.FT(System.String@,System.String)">
+ <summary>
+ Formats a property string, adding its units in parenthesis.
+ </summary>
+ <param name="prop">Property string</param>
+ <param name="unit">Property units</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.SharedClasses.UnitOperations.BaseClass.SetFlowsheet(System.Object)">
+ <summary>
+ Sets the Flowsheet to which this object belongs to.
+ </summary>
+ <param name="flowsheet">Flowsheet instance.</param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.SharedClasses.Extensions.ExpY(System.Double)">
+ <summary>
+ Alternative implementation for the Exponential (Exp) function.
+ </summary>
+ <param name="val"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.SharedClasses.Extensions.ToJaggedArray``1(``0[0:,0:])">
+ <summary>
+ Converts a two-dimensional array to a jagged array.
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="twoDimensionalArray"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.SharedClasses.Extensions.FromJaggedArray``1(``0[][])">
+ <summary>
+ Converts a jagged array to a two-dimensional array.
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="jaggedArray"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

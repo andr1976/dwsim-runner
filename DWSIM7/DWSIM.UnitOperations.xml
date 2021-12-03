@@ -1,0 +1,1264 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DWSIM.UnitOperations
+</name>
+</assembly>
+<members>
+<member name="T:DWSIM.UnitOperations.My.Resources.Strings">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.ADJ_Desc">
+<summary>
+  Looks up a localized string similar to Bloco lógico para controle de variáveis.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.ADJ_Name">
+<summary>
+  Looks up a localized string similar to Controlador.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.AG_Desc">
+<summary>
+  Looks up a localized string similar to Display Analógico.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.AG_Name">
+<summary>
+  Looks up a localized string similar to Display Analógico.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.CABS_Desc">
+<summary>
+  Looks up a localized string similar to Modelo para simulação rigorosa de colunas de absorção e extração.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.CABS_Name">
+<summary>
+  Looks up a localized string similar to Coluna de Absorção/Extração.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.CDEST_Desc">
+<summary>
+  Looks up a localized string similar to Modelo rigoroso para simulação de colunas de destilação.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.CDEST_Name">
+<summary>
+  Looks up a localized string similar to Coluna de Destilação.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.COMP_Desc">
+<summary>
+  Looks up a localized string similar to Modelo para um compressor.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.COMP_Name">
+<summary>
+  Looks up a localized string similar to Compressor.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.CONV_Desc">
+<summary>
+  Looks up a localized string similar to Suporta reações definidas por uma taxa de conversão de reagentes.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.CONV_Name">
+<summary>
+  Looks up a localized string similar to Reator de Conversão.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.COOL_Desc">
+<summary>
+  Looks up a localized string similar to Modelo de resfriador simples.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.COOL_Name">
+<summary>
+  Looks up a localized string similar to Resfriador.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.COUO_Desc">
+<summary>
+  Looks up a localized string similar to Modelo para simulação de operações unitárias CAPE-OPEN.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.COUO_Name">
+<summary>
+  Looks up a localized string similar to Operação Unitária CAPE-OPEN.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.CRABS_Desc">
+<summary>
+  Looks up a localized string similar to Modelo rigoroso de absorvedora com refervedor.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.CRABS_Name">
+<summary>
+  Looks up a localized string similar to Absorvedora com Refervedor.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.CRFABS_Desc">
+<summary>
+  Looks up a localized string similar to Modelo rigoroso de uma coluna de absorção com refluxo.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.CRFABS_Name">
+<summary>
+  Looks up a localized string similar to Absorvedora com Refluxo.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.CSC_Desc">
+<summary>
+  Looks up a localized string similar to Modelo para dimensionamento rápido de colunas de destilação.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.CSC_Name">
+<summary>
+  Looks up a localized string similar to Coluna Shortcut.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.CSEP_Desc">
+<summary>
+  Looks up a localized string similar to Modelo para separação hipotética de substâncias.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.CSEP_Name">
+<summary>
+  Looks up a localized string similar to Separador de Substâncias.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.CSTR_Desc">
+<summary>
+  Looks up a localized string similar to Modelo de um CSTR, suporta reações Cinéticas e Catalíticas Heterogêneas.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.CSTR_Name">
+<summary>
+  Looks up a localized string similar to Reator Tanque Continuamente Agitado (CSTR).
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.DG_Desc">
+<summary>
+  Looks up a localized string similar to Display Digital.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.DG_Name">
+<summary>
+  Looks up a localized string similar to Display Digital.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.EQUIL_Desc">
+<summary>
+  Looks up a localized string similar to Suporta reações definidas por constantes de equilíbrio.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.EQUIL_Name">
+<summary>
+  Looks up a localized string similar to Reator de Equilíbrio.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.ERECY_Desc">
+<summary>
+  Looks up a localized string similar to Bloco lógico para reciclo de correntes de energia.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.ERECY_Name">
+<summary>
+  Looks up a localized string similar to Reciclo de Energia.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.ESTR_Desc">
+<summary>
+  Looks up a localized string similar to Representa o fluxo de energia entrando e saindo das operações unitárias.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.ESTR_Name">
+<summary>
+  Looks up a localized string similar to Corrente de Energia.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.EXLUO_Desc">
+<summary>
+  Looks up a localized string similar to Modelo para utilização de uma planilha como um bloco no fluxograma.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.EXLUO_Name">
+<summary>
+  Looks up a localized string similar to Planilha.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.EXP_Desc">
+<summary>
+  Looks up a localized string similar to Modelo para um expansor.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.EXP_Name">
+<summary>
+  Looks up a localized string similar to Expansor (Turbina).
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.FILTER_Desc">
+<summary>
+  Looks up a localized string similar to Modelo de filtro de sólidos.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.FILTER_Name">
+<summary>
+  Looks up a localized string similar to Filtro.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.FLOWS_Desc">
+<summary>
+  Looks up a localized string similar to Modelo para utilização de uma simulação existente como um bloco no fluxograma.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.FLOWS_Name">
+<summary>
+  Looks up a localized string similar to Fluxograma.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.GIBBS_Desc">
+<summary>
+  Looks up a localized string similar to Calcula o equilíbrio químico de átomos em uma Corrente de Matéria.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.GIBBS_Name">
+<summary>
+  Looks up a localized string similar to Reator de Gibbs.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.HEAT_Desc">
+<summary>
+  Looks up a localized string similar to Modelo de aquecedor simples.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.HEAT_Name">
+<summary>
+  Looks up a localized string similar to Aquecedor.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.HEXCH_Desc">
+<summary>
+  Looks up a localized string similar to Modelo de trocador de calor rigoroso.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.HEXCH_Name">
+<summary>
+  Looks up a localized string similar to Trocador de Calor Rigoroso.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.IN_Desc">
+<summary>
+  Looks up a localized string similar to Atualiza o valor de uma variável diretamente do fluxograma.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.IN_Name">
+<summary>
+  Looks up a localized string similar to Caixa de Texto.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.IPUO_Desc">
+<summary>
+  Looks up a localized string similar to Operação unitária definida por um script Python.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.IPUO_Name">
+<summary>
+  Looks up a localized string similar to Script Python.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.LG_Desc">
+<summary>
+  Looks up a localized string similar to Medidor de Nível.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.LG_Name">
+<summary>
+  Looks up a localized string similar to Medidor de Nível.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.MIX_Desc">
+<summary>
+  Looks up a localized string similar to Mistura múltiplas Correntes de Matéria em uma.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.MIX_Name">
+<summary>
+  Looks up a localized string similar to Misturador de Correntes.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.MRECY_Desc">
+<summary>
+  Looks up a localized string similar to Bloco para conexão de Correntes de Matéria de corte.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.MRECY_Name">
+<summary>
+  Looks up a localized string similar to Reciclo.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.ORIF_Desc">
+<summary>
+  Looks up a localized string similar to Dimensiona ou avalia uma placa de orifício.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.ORIF_Name">
+<summary>
+  Looks up a localized string similar to Placa de Orifício.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.PFR_Desc">
+<summary>
+  Looks up a localized string similar to Modelo de um PFR, suporta reações Cinéticas e Catalíticas Heterogêneas.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.PFR_Name">
+<summary>
+  Looks up a localized string similar to Reator Plug-Flow (PFR).
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.PID_Desc">
+<summary>
+  Looks up a localized string similar to Controlador PID.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.PID_Name">
+<summary>
+  Looks up a localized string similar to Controlador PID.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.PIPE_Desc">
+<summary>
+  Looks up a localized string similar to Define um segmento de tubulação e acessórios para cálculo de perda de carga.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.PIPE_Name">
+<summary>
+  Looks up a localized string similar to Segmento de Tubulação.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.PUMP_Desc">
+<summary>
+  Looks up a localized string similar to Modelo de bomba.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.PUMP_Err1">
+<summary>
+  Looks up a localized string similar to Nenhum tipo de bomba definido!.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.PUMP_Err2">
+<summary>
+  Looks up a localized string similar to Banco de dados já existe!.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.PUMP_Err3">
+<summary>
+  Looks up a localized string similar to Banco de dados não encontrado!.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.PUMP_Modified">
+<summary>
+  Looks up a localized string similar to Modificada.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.PUMP_Msg1">
+<summary>
+  Looks up a localized string similar to  criado..
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.PUMP_Msg2">
+<summary>
+  Looks up a localized string similar to Substituir ?.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.PUMP_Name">
+<summary>
+  Looks up a localized string similar to Bomba.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.PUMP_Saved">
+<summary>
+  Looks up a localized string similar to Salvo.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.SPEC_Desc">
+<summary>
+  Looks up a localized string similar to Define uma variável como função de outra.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.SPEC_Name">
+<summary>
+  Looks up a localized string similar to Especificação.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.SPLIT_Desc">
+<summary>
+  Looks up a localized string similar to Divide uma Corrente de Matéria em outras correntes.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.SPLIT_Name">
+<summary>
+  Looks up a localized string similar to Divisor de Correntes.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.SSEP_Desc">
+<summary>
+  Looks up a localized string similar to Separa a fase sólida das demais em uma Corrente de Matéria.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.SSEP_Name">
+<summary>
+  Looks up a localized string similar to Separador de Sólidos.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.SW_Desc">
+<summary>
+  Looks up a localized string similar to Muda o valor de uma variável entre dois valores.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.SW_Name">
+<summary>
+  Looks up a localized string similar to Interruptor.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.TANK_Desc">
+<summary>
+  Looks up a localized string similar to Modelo simplificado de tanque de armazenamento.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.TANK_Name">
+<summary>
+  Looks up a localized string similar to Tanque.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.VALVE_Desc">
+<summary>
+  Looks up a localized string similar to Modelo de válvula com expansão isentálpica.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.VALVE_Name">
+<summary>
+  Looks up a localized string similar to Válvula.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.VESSEL_Desc">
+<summary>
+  Looks up a localized string similar to Separador de fases fluidas (vapor/líquido).
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Strings.VESSEL_Name">
+<summary>
+  Looks up a localized string similar to Vaso Separador Gás-Líquido.
+</summary>
+</member>
+<member name="T:DWSIM.UnitOperations.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources._new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.analog_gauge1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.arrow_down">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.arrow_in1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.arrow_left">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.arrow_right">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.arrow_rotate_clockwise">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.arrow_up">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.arrows_4_way">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.bullet_lightning">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.bullet_sparkle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.bullet_tick">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.chart_line">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.cog">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.col_abs_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.col_abs_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.col_dc_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.col_dc_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.col_rebabs_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.col_rebabs_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.col_rflabs_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.col_rflabs_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.col_sc_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.col_sc_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.connect">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.control_panel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.control_panel1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.control_play">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.cross">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.digital_display">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.digital_display1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.disconnect">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.disk">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.fast_forward">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.folder_page_white">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.help_browser1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.icons8_spy_male">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.information">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.input">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.level_gauge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.level_gauge1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.lightning">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.lo_adjust_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.lo_adjust_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.lo_enrecy_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.lo_enrecy_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.lo_recy_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.lo_recy_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.lo_spec_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.lo_spec_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.lock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.lock_open">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.page_white_gear">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.page_white_magnify">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.paste_plain">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.printer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.printer_add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.re_conv_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.re_conv_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.re_cstr_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.re_cstr_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.re_equi_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.re_equi_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.re_gibbs_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.re_gibbs_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.re_pfr_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.re_pfr_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.rewind">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.script_code">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.script_code1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.shape_square_add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.shape_square_delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.Straight_tube_heat_exchanger_1_pass">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.Straight_tube_heat_exchanger_2_pass">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.stream_en_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.stream_en_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.switch_on">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.tag_blue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.tick">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.turn_left">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.turn_right">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_co_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_co_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_compr_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_compr_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_compsep_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_compsep_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_cooler_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_cooler_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_custom_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_custom_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_excel_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_excel_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_expan_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_expan_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_filter_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_filter_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_flash_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_flash_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_fs_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_fs_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_heater_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_heater_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_hx_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_hx_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_mixer_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_mixer_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_orifice_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_orifice_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_pipe_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_pipe_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_pump_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_pump_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_solidsep_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_solidsep_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_split_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_split_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_tank_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_tank_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_valve_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.My.Resources.Resources.uo_valve_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DWSIM.UnitOperations.UnitOperations.UnitOpBaseClass.PropertyPackage">
+ <summary>
+ Gets or sets the property package associated with this object.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.UnitOperations.UnitOperations.UnitOpBaseClass.DeCalculate">
+ <summary>
+ Decalculates the object.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.UnitOperations.UnitOperations.UnitOpBaseClass.Unsolve">
+ <summary>
+ Decalculates the object.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:DWSIM.UnitOperations.UnitOperations.Auxiliary.CapeOpen.CRealParameter">
+ <summary>
+ This class if for legacy compatibility only. It should NOT be used. Use CapeOpen.RealParameter instead if necessary.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.UnitOperations.UnitOperations.CapeOpenUO.SaveTempData">
+ <summary>
+ Saves the current UO data in a temporary placeholder, so it can be loaded by another thread which will
+ reinstantiate the COM object because of interop restrictions.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.UnitOperations.UnitOperations.Column.SetNumberOfStages(System.Int32)">
+ <summary>
+ Set the number of stages (n > 3)
+ </summary>
+ <param name="n"></param>
+</member>
+<member name="M:DWSIM.UnitOperations.UnitOperations.Column.SetStreamFeedStage(System.String,System.Int32)">
+ <summary>
+ Sets the Stream feed stage.
+ </summary>
+ <param name="streamName">Material Stream ID ('Name') property.</param>
+ <param name="stageIndex">Stage Index (0 = condenser)</param>
+</member>
+<member name="M:DWSIM.UnitOperations.UnitOperations.Column.SetStreamFeedStage(System.String,System.String)">
+ <summary>
+ Sets the Stream feed stage.
+ </summary>
+ <param name="streamName">Material Stream ID ('Name') property.</param>
+ <param name="stageID">Stage ID (unique ID)</param>
+</member>
+<member name="M:DWSIM.UnitOperations.UnitOperations.Column.SetStreamFeedStage(DWSIM.Thermodynamics.Streams.MaterialStream,System.Int32)">
+ <summary>
+ Sets the Stream feed stage.
+ </summary>
+ <param name="stream"></param>
+ <param name="stageIndex">Stage Index (0 = condenser)</param>
+</member>
+<member name="M:DWSIM.UnitOperations.UnitOperations.Column.SetStreamFeedStage(DWSIM.Thermodynamics.Streams.MaterialStream,System.String)">
+ <summary>
+ Sets the Stream feed stage.
+ </summary>
+ <param name="stream"></param>
+ <param name="stageID">Stage ID (unique ID)</param>
+</member>
+<member name="P:DWSIM.UnitOperations.Streams.EnergyStream.EnergyFlow">
+ <summary>
+ Power (energy) associated with this stream.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.UnitOperations.Extensions.ExpY(System.Double)">
+ <summary>
+ Alternative implementation for the Exponential (Exp) function.
+ </summary>
+ <param name="val"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.UnitOperations.Extensions.ToJaggedArray``1(``0[0:,0:])">
+ <summary>
+ Converts a two-dimensional array to a jagged array.
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="twoDimensionalArray"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.UnitOperations.Extensions.FromJaggedArray``1(``0[][])">
+ <summary>
+ Converts a jagged array to a two-dimensional array.
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="jaggedArray"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:DWSIM.UnitOperations.scintillaExtender">
+ <summary>
+ scintillaNET Editor extender for code intellisense display
+ </summary>
+ <remarks>(c) 2015 Daniel Medeiros</remarks>
+</member>
+<member name="M:DWSIM.UnitOperations.scintillaExtender.SetEditorStyle(ScintillaNET.Scintilla,System.String,System.Int32,System.Boolean,System.Boolean)">
+ <summary>
+ Sets the editor style for Python language.
+ </summary>
+ <param name="scintilla"></param>
+ <param name="fontname">Name of the font to be used.</param>
+ <param name="fontsize">Size of the font to be used.</param>
+ <param name="viewspaces">Enables or disables whitspace highlighting.</param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.UnitOperations.scintillaExtender.SetColumnMargins(ScintillaNET.Scintilla)">
+ <summary>
+ Sets the column margins to correctly show line numbers.
+ </summary>
+ <param name="scintilla"></param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.UnitOperations.scintillaExtender.ShowAutoComplete(ScintillaNET.Scintilla,System.Boolean)">
+ <summary>
+ Show an autocomplete listbox with methods and properties from the object with the entered keyword.
+ </summary>
+ <param name="scintilla"></param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.UnitOperations.scintillaExtender.ShowToolTip(ScintillaNET.Scintilla,System.Collections.Generic.List{Jolt.XmlDocCommentReader},System.Boolean)">
+ <summary>
+ Show a tooltip with information about the entered object method or property.
+ </summary>
+ <param name="scintilla"></param>
+ <param name="readers">Jolt's XmlDocCommentReader list or readers, to get and display comments from assembly-generated XML file.</param>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.UnitOperations.scintillaExtender.FormatHelpTip(ScintillaNET.Scintilla,System.Reflection.MemberInfo,System.Collections.Generic.List{Jolt.XmlDocCommentReader},System.Boolean)">
+ <summary>
+ Formats the text to be displayed in the tooltip using information from the object's member and from the XML documentation, if existing.
+ </summary>
+ <param name="scintilla"></param>
+ <param name="member">Reflected member to display information from.</param>
+ <param name="reader">Jolt's XmlDocCommentReader instance, to get and display comments from assembly-generated XML file.</param>
+ <returns>The formatted text to display in the tooltip.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:DWSIM.UnitOperations.scintillaExtender.getLastWord(ScintillaNET.Scintilla)">
+ <summary>
+ Returns the last typed word in the editor.
+ </summary>
+ <param name="scintilla"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
