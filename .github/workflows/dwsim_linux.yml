@@ -30,7 +30,6 @@ jobs:
         run: |
           sudo apt update
           sudo apt-get install clang
-          sudo apt-get mono-vbnc
           sudo apt-get install nuget
           sudo apt-get install git
           wget https://netcologne.dl.sourceforge.net/project/dwsim/DWSIM/DWSIM%207.0/7.1.0/dwsim_7.1.0-amd64.deb
