@@ -22,15 +22,13 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    
+      - uses: actions/checkout@v2
   #    - name: directory
   #      run: powershell -command Get-Location
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: install packages
         run: | 
             sudo dpkg -i --force-all dwsim_7.1.0-amd64.deb
-        
-      - uses: actions/checkout@v2
     
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
