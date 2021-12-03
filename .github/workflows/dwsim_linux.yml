@@ -30,9 +30,11 @@ jobs:
         run: |
           sudo apt update
           sudo apt-get install clang
-          sudo apt install nuget
+          sudo apt-get mono-vbnc
+          sudo apt-get install nuget
+          sudo apt-get install git
           wget https://netcologne.dl.sourceforge.net/project/dwsim/DWSIM/DWSIM%207.0/7.1.0/dwsim_7.1.0-amd64.deb
-          sudo apt-get install dwsim_7.1.0-amd64.deb
+          sudo dpkg -i --force-all dwsim_7.1.0-amd64.deb
       - uses: actions/checkout@v2
       
       - name: Set up Python 3.8
@@ -44,8 +46,7 @@ jobs:
            python -m pip install --upgrade pip
            python -m pip install -r requirements.txt
            python -m pip install -U pycparser --user
-           python -m pip install -U pythonnet --user
-          
+           python -m pip install -U git+https://github.com/pythonnet/pythonnet --user --egg 
       # Runs a single command using the runners shell
       # Runs a set of commands using the runners shell
       - name: Run DWSIM automation
