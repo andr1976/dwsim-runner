@@ -27,7 +27,8 @@ jobs:
   #      run: powershell -command Get-Location
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: install packages
-        run: | 
+        run: |
+            wget https://netcologne.dl.sourceforge.net/project/dwsim/DWSIM/DWSIM%207.0/7.1.0/dwsim_7.1.0-amd64.deb
             sudo dpkg -i --force-all dwsim_7.1.0-amd64.deb
     
       - name: Set up Python 3.8
