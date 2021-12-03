@@ -136,20 +136,6 @@ def scale_sampling_plan(X, limits):
 
 if __name__=="__main__":
     dwsim=DWSIM(sim_file_path)
-
-    #Uncomment next lines if generating a NEW sampling plan
-    #xlimits=[(40,70),(11,32),(3,10),(50,75),(0.5,2),(25,40),(25,40),(25,40),(60,90),(-5,28)] 
-    #X=lhsmdu.createRandomStandardUniformMatrix(100,10)
-    #X_n=scale_sampling_plan(X,xlimits)
-    #np.savetxt("raw_testplan.csv",X,delimiter=",")
-    #np.savetxt("scaled_testplan.csv",X_n,delimiter=",")
+    res=dwsim([50,33,5,65,1,25,25,25,60,-10])
+    print("DWSIM result:", res) 
     
-    # Loading already existing sampling plan
-    X_n = np.loadtxt("data\\scaled_testplan.csv",delimiter=",")
-    Y=np.zeros((len(X_n),4))
-        
-    for i in range(len(X_n)):
-        Y[i,:] = dwsim(X_n[i,:])
-        print("Finished simulation no: ", i, " out of", len(X_n), " Vap ratio: ", dwsim.vap_ratio)
-    
-    np.savetxt("DWSIM_result.csv",Y,delimiter=",")
