@@ -41,4 +41,4 @@ jobs:
       # Runs a single command using the runners shell
       # Runs a set of commands using the runners shell
       - name: Run DWSIM automation
-        run:  python DWSIM_automation.py
+        run:  python DWSIM_linux_automation.py
