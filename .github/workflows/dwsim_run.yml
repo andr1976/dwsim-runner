@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: DWSIM_RUNNER
 
 # Controls when the workflow will run
 on:
@@ -35,7 +35,6 @@ jobs:
            python -m pip install -r requirements.txt
       # Runs a single command using the runners shell
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      - name: Run DWSIM automation
+        run:  python DWSIM_automation.py
+          
