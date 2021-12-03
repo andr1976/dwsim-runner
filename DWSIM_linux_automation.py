@@ -1,6 +1,3 @@
-import pythoncom
-pythoncom.CoInitialize()
-
 import numpy as np
 import clr
 import lhsmdu
