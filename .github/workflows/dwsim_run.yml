@@ -24,7 +24,7 @@ jobs:
     steps:
     
       - name: directory
-        run: dir
+        run: C:\Program Files\PowerShell\7\pwsh.EXE -command Get-Location
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
   #    - uses: actions/checkout@v2
   #  
