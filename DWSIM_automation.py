@@ -7,7 +7,7 @@ import lhsmdu
 
 from System.IO import Directory, Path, File
 
-dwsimpath = "DWSIM7\\"
+dwsimpath = "D:\\a\\dwsim-runner\\dwsim-runner\\DWSIM7\\"
 
 clr.AddReference(dwsimpath + "CapeOpen.dll")
 clr.AddReference(dwsimpath + "DWSIM.Automation.dll")
@@ -28,9 +28,9 @@ from DWSIM.UnitOperations import UnitOperations
 from DWSIM.Automation import Automation2
 from DWSIM.GlobalSettings import Settings
 
-Directory.SetCurrentDirectory(".")#dwsimpath)
+Directory.SetCurrentDirectory("D:\\a\\dwsim-runner\\dwsim-runner\\")#dwsimpath)
 
-sim_file_path = "optimisation.dwxmz"
+sim_file_path = "D:\\a\\dwsim-runner\\dwsim-runner\\optimisation.dwxmz"
 
 class DWSIM:
     def __init__(self, sim_file_path):
