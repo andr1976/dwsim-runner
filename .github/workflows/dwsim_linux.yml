@@ -32,8 +32,8 @@ jobs:
           sudo apt-get install clang
           sudo apt-get install nuget
           sudo apt-get install git
-        # wget https://netcologne.dl.sourceforge.net/project/dwsim/DWSIM/DWSIM%207.0/7.1.0/dwsim_7.1.0-amd64.deb
-        #sudo dpkg -i --force-all dwsim_7.1.0-amd64.deb
+          wget https://netcologne.dl.sourceforge.net/project/dwsim/DWSIM/DWSIM%207.0/7.1.0/dwsim_7.1.0-amd64.deb
+          sudo dpkg -i --force-all dwsim_7.1.0-amd64.deb
       - uses: actions/checkout@v2
       
       - name: Set up Python 3.8
