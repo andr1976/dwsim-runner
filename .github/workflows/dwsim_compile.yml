@@ -26,7 +26,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: DanWBR/dwsim
+          repository: andr1976/dwsim6
       - name: Compile
         run: dotnet build DWSIM.sln --configuration Release --runtime win-x64
       
