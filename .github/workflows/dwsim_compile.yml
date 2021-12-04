@@ -28,6 +28,6 @@ jobs:
         with:
           repository: andr1976/dwsim6
       - name: Compile
-        run: dotnet msbuild DWSIM.sln --configuration Release 
+        run: dotnet msbuild DWSIM.sln  
       
       
