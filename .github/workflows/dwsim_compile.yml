@@ -28,6 +28,6 @@ jobs:
         with:
           repository: DanWBR/dwsim
       - name: Compile
-        run: dotnet build DWSIM.sln --configuration Release
+        run: dotnet build DWSIM.sln --configuration Release --runtime win-x64
       
       
