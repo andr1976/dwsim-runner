@@ -33,6 +33,6 @@ jobs:
         with:
           msbuild-architecture: x64
       - name: Compile
-        run: msbuild DWSIM.sln  
+        run: msbuild DWSIM.sln /property:Configuration=Release
       
       
