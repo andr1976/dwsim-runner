@@ -27,7 +27,12 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: andr1976/dwsim6
+          
+      - name: Add msbuild to PATH
+        uses: microsoft/setup-msbuild@v1.1
+        with:
+          msbuild-architecture: x64
       - name: Compile
-        run: dotnet msbuild DWSIM.sln  
+        run: msbuild DWSIM.sln  
       
       
