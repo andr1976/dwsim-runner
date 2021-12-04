@@ -27,9 +27,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: DanWBR/dwsim
-  #    - name: directory
-  #      run: powershell -command Get-Location
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      #- uses: actions/checkout@v2
-    
+      - name: Compile
+        run: dotnet build DWSIM.sln --configuration Release
+      
       
